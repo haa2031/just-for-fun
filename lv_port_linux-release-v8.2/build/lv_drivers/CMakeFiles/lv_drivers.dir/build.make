@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/torm/lv_port_linux-release-v8.2
+CMAKE_SOURCE_DIR = /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/torm/lv_port_linux-release-v8.2/build
+CMAKE_BINARY_DIR = /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build
 
 # Include any dependencies generated for this target.
 include lv_drivers/CMakeFiles/lv_drivers.dir/depend.make
@@ -70,298 +70,298 @@ include lv_drivers/CMakeFiles/lv_drivers.dir/progress.make
 include lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o -MF CMakeFiles/lv_drivers.dir/display/GC9A01.c.o.d -o CMakeFiles/lv_drivers.dir/display/GC9A01.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.o -MF CMakeFiles/lv_drivers.dir/display/GC9A01.c.o.d -o CMakeFiles/lv_drivers.dir/display/GC9A01.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/GC9A01.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c > CMakeFiles/lv_drivers.dir/display/GC9A01.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c > CMakeFiles/lv_drivers.dir/display/GC9A01.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/GC9A01.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/GC9A01.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c -o CMakeFiles/lv_drivers.dir/display/GC9A01.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/GC9A01.c -o CMakeFiles/lv_drivers.dir/display/GC9A01.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o -MF CMakeFiles/lv_drivers.dir/display/ILI9341.c.o.d -o CMakeFiles/lv_drivers.dir/display/ILI9341.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.o -MF CMakeFiles/lv_drivers.dir/display/ILI9341.c.o.d -o CMakeFiles/lv_drivers.dir/display/ILI9341.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/ILI9341.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c > CMakeFiles/lv_drivers.dir/display/ILI9341.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c > CMakeFiles/lv_drivers.dir/display/ILI9341.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ILI9341.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/ILI9341.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c -o CMakeFiles/lv_drivers.dir/display/ILI9341.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ILI9341.c -o CMakeFiles/lv_drivers.dir/display/ILI9341.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o -MF CMakeFiles/lv_drivers.dir/display/R61581.c.o.d -o CMakeFiles/lv_drivers.dir/display/R61581.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.o -MF CMakeFiles/lv_drivers.dir/display/R61581.c.o.d -o CMakeFiles/lv_drivers.dir/display/R61581.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/R61581.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c > CMakeFiles/lv_drivers.dir/display/R61581.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c > CMakeFiles/lv_drivers.dir/display/R61581.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/R61581.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/R61581.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c -o CMakeFiles/lv_drivers.dir/display/R61581.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/R61581.c -o CMakeFiles/lv_drivers.dir/display/R61581.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o -MF CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o.d -o CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o -MF CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o.d -o CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c > CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c > CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c -o CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SHARP_MIP.c -o CMakeFiles/lv_drivers.dir/display/SHARP_MIP.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o -MF CMakeFiles/lv_drivers.dir/display/SSD1963.c.o.d -o CMakeFiles/lv_drivers.dir/display/SSD1963.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.o -MF CMakeFiles/lv_drivers.dir/display/SSD1963.c.o.d -o CMakeFiles/lv_drivers.dir/display/SSD1963.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/SSD1963.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c > CMakeFiles/lv_drivers.dir/display/SSD1963.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c > CMakeFiles/lv_drivers.dir/display/SSD1963.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/SSD1963.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/SSD1963.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c -o CMakeFiles/lv_drivers.dir/display/SSD1963.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/SSD1963.c -o CMakeFiles/lv_drivers.dir/display/SSD1963.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o -MF CMakeFiles/lv_drivers.dir/display/ST7565.c.o.d -o CMakeFiles/lv_drivers.dir/display/ST7565.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.o -MF CMakeFiles/lv_drivers.dir/display/ST7565.c.o.d -o CMakeFiles/lv_drivers.dir/display/ST7565.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/ST7565.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c > CMakeFiles/lv_drivers.dir/display/ST7565.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c > CMakeFiles/lv_drivers.dir/display/ST7565.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/ST7565.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/ST7565.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c -o CMakeFiles/lv_drivers.dir/display/ST7565.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/ST7565.c -o CMakeFiles/lv_drivers.dir/display/ST7565.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o -MF CMakeFiles/lv_drivers.dir/display/UC1610.c.o.d -o CMakeFiles/lv_drivers.dir/display/UC1610.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.o -MF CMakeFiles/lv_drivers.dir/display/UC1610.c.o.d -o CMakeFiles/lv_drivers.dir/display/UC1610.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/UC1610.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c > CMakeFiles/lv_drivers.dir/display/UC1610.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c > CMakeFiles/lv_drivers.dir/display/UC1610.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/UC1610.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/UC1610.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c -o CMakeFiles/lv_drivers.dir/display/UC1610.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/UC1610.c -o CMakeFiles/lv_drivers.dir/display/UC1610.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/drm.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/drm.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o -MF CMakeFiles/lv_drivers.dir/display/drm.c.o.d -o CMakeFiles/lv_drivers.dir/display/drm.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/drm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.o -MF CMakeFiles/lv_drivers.dir/display/drm.c.o.d -o CMakeFiles/lv_drivers.dir/display/drm.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/drm.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/drm.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/drm.c > CMakeFiles/lv_drivers.dir/display/drm.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/drm.c > CMakeFiles/lv_drivers.dir/display/drm.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/drm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/drm.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/drm.c -o CMakeFiles/lv_drivers.dir/display/drm.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/drm.c -o CMakeFiles/lv_drivers.dir/display/drm.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c
+lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c
 lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o -MF CMakeFiles/lv_drivers.dir/display/fbdev.c.o.d -o CMakeFiles/lv_drivers.dir/display/fbdev.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.o -MF CMakeFiles/lv_drivers.dir/display/fbdev.c.o.d -o CMakeFiles/lv_drivers.dir/display/fbdev.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/display/fbdev.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c > CMakeFiles/lv_drivers.dir/display/fbdev.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c > CMakeFiles/lv_drivers.dir/display/fbdev.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/display/fbdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/display/fbdev.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c -o CMakeFiles/lv_drivers.dir/display/fbdev.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/display/fbdev.c -o CMakeFiles/lv_drivers.dir/display/fbdev.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c
+lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c
 lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o -MF CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o.d -o CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o -MF CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o.d -o CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c > CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c > CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c -o CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/gtkdrv/gtkdrv.c -o CMakeFiles/lv_drivers.dir/gtkdrv/gtkdrv.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o -MF CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o.d -o CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o -MF CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o.d -o CMakeFiles/lv_drivers.dir/indev/AD_touch.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c > CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c > CMakeFiles/lv_drivers.dir/indev/AD_touch.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c -o CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/AD_touch.c -o CMakeFiles/lv_drivers.dir/indev/AD_touch.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o -MF CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o.d -o CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o -MF CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o.d -o CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c > CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c > CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c -o CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/FT5406EE8.c -o CMakeFiles/lv_drivers.dir/indev/FT5406EE8.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o -MF CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o.d -o CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o -MF CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o.d -o CMakeFiles/lv_drivers.dir/indev/XPT2046.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c > CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c > CMakeFiles/lv_drivers.dir/indev/XPT2046.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c -o CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/XPT2046.c -o CMakeFiles/lv_drivers.dir/indev/XPT2046.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o -MF CMakeFiles/lv_drivers.dir/indev/evdev.c.o.d -o CMakeFiles/lv_drivers.dir/indev/evdev.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.o -MF CMakeFiles/lv_drivers.dir/indev/evdev.c.o.d -o CMakeFiles/lv_drivers.dir/indev/evdev.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/evdev.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c > CMakeFiles/lv_drivers.dir/indev/evdev.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c > CMakeFiles/lv_drivers.dir/indev/evdev.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/evdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/evdev.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c -o CMakeFiles/lv_drivers.dir/indev/evdev.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/evdev.c -o CMakeFiles/lv_drivers.dir/indev/evdev.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o -MF CMakeFiles/lv_drivers.dir/indev/libinput.c.o.d -o CMakeFiles/lv_drivers.dir/indev/libinput.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.o -MF CMakeFiles/lv_drivers.dir/indev/libinput.c.o.d -o CMakeFiles/lv_drivers.dir/indev/libinput.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/libinput.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c > CMakeFiles/lv_drivers.dir/indev/libinput.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c > CMakeFiles/lv_drivers.dir/indev/libinput.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/libinput.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/libinput.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c -o CMakeFiles/lv_drivers.dir/indev/libinput.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/libinput.c -o CMakeFiles/lv_drivers.dir/indev/libinput.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c
+lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o -MF CMakeFiles/lv_drivers.dir/indev/xkb.c.o.d -o CMakeFiles/lv_drivers.dir/indev/xkb.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.o -MF CMakeFiles/lv_drivers.dir/indev/xkb.c.o.d -o CMakeFiles/lv_drivers.dir/indev/xkb.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/indev/xkb.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c > CMakeFiles/lv_drivers.dir/indev/xkb.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c > CMakeFiles/lv_drivers.dir/indev/xkb.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/indev/xkb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/indev/xkb.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c -o CMakeFiles/lv_drivers.dir/indev/xkb.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/indev/xkb.c -o CMakeFiles/lv_drivers.dir/indev/xkb.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c
+lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o -MF CMakeFiles/lv_drivers.dir/sdl/sdl.c.o.d -o CMakeFiles/lv_drivers.dir/sdl/sdl.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.o -MF CMakeFiles/lv_drivers.dir/sdl/sdl.c.o.d -o CMakeFiles/lv_drivers.dir/sdl/sdl.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/sdl/sdl.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c > CMakeFiles/lv_drivers.dir/sdl/sdl.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c > CMakeFiles/lv_drivers.dir/sdl/sdl.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/sdl/sdl.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c -o CMakeFiles/lv_drivers.dir/sdl/sdl.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl.c -o CMakeFiles/lv_drivers.dir/sdl/sdl.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c
+lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o -MF CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o.d -o CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o -MF CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o.d -o CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c > CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c > CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c -o CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/sdl/sdl_gpu.c -o CMakeFiles/lv_drivers.dir/sdl/sdl_gpu.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c
+lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c
 lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o -MF CMakeFiles/lv_drivers.dir/wayland/wayland.c.o.d -o CMakeFiles/lv_drivers.dir/wayland/wayland.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.o -MF CMakeFiles/lv_drivers.dir/wayland/wayland.c.o.d -o CMakeFiles/lv_drivers.dir/wayland/wayland.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/wayland/wayland.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c > CMakeFiles/lv_drivers.dir/wayland/wayland.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c > CMakeFiles/lv_drivers.dir/wayland/wayland.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/wayland/wayland.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/wayland/wayland.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c -o CMakeFiles/lv_drivers.dir/wayland/wayland.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/wayland/wayland.c -o CMakeFiles/lv_drivers.dir/wayland/wayland.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c
+lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c
 lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o -MF CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o.d -o CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o -MF CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o.d -o CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c > CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c > CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c -o CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win32drv/win32drv.c -o CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.s
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/flags.make
-lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o: /home/torm/lv_port_linux-release-v8.2/lv_drivers/win_drv.c
+lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o: /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win_drv.c
 lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o: lv_drivers/CMakeFiles/lv_drivers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o -MF CMakeFiles/lv_drivers.dir/win_drv.c.o.d -o CMakeFiles/lv_drivers.dir/win_drv.c.o -c /home/torm/lv_port_linux-release-v8.2/lv_drivers/win_drv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o -MF CMakeFiles/lv_drivers.dir/win_drv.c.o.d -o CMakeFiles/lv_drivers.dir/win_drv.c.o -c /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win_drv.c
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/lv_drivers.dir/win_drv.c.i"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/torm/lv_port_linux-release-v8.2/lv_drivers/win_drv.c > CMakeFiles/lv_drivers.dir/win_drv.c.i
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win_drv.c > CMakeFiles/lv_drivers.dir/win_drv.c.i
 
 lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/lv_drivers.dir/win_drv.c.s"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/torm/lv_port_linux-release-v8.2/lv_drivers/win_drv.c -o CMakeFiles/lv_drivers.dir/win_drv.c.s
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers/win_drv.c -o CMakeFiles/lv_drivers.dir/win_drv.c.s
 
 # Object files for target lv_drivers
 lv_drivers_OBJECTS = \
@@ -413,19 +413,19 @@ lib/liblv_drivers.a: lv_drivers/CMakeFiles/lv_drivers.dir/win32drv/win32drv.c.o
 lib/liblv_drivers.a: lv_drivers/CMakeFiles/lv_drivers.dir/win_drv.c.o
 lib/liblv_drivers.a: lv_drivers/CMakeFiles/lv_drivers.dir/build.make
 lib/liblv_drivers.a: lv_drivers/CMakeFiles/lv_drivers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/torm/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library ../lib/liblv_drivers.a"
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -P CMakeFiles/lv_drivers.dir/cmake_clean_target.cmake
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lv_drivers.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library ../lib/liblv_drivers.a"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -P CMakeFiles/lv_drivers.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lv_drivers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lv_drivers/CMakeFiles/lv_drivers.dir/build: lib/liblv_drivers.a
 .PHONY : lv_drivers/CMakeFiles/lv_drivers.dir/build
 
 lv_drivers/CMakeFiles/lv_drivers.dir/clean:
-	cd /home/torm/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -P CMakeFiles/lv_drivers.dir/cmake_clean.cmake
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers && $(CMAKE_COMMAND) -P CMakeFiles/lv_drivers.dir/cmake_clean.cmake
 .PHONY : lv_drivers/CMakeFiles/lv_drivers.dir/clean
 
 lv_drivers/CMakeFiles/lv_drivers.dir/depend:
-	cd /home/torm/lv_port_linux-release-v8.2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/torm/lv_port_linux-release-v8.2 /home/torm/lv_port_linux-release-v8.2/lv_drivers /home/torm/lv_port_linux-release-v8.2/build /home/torm/lv_port_linux-release-v8.2/build/lv_drivers /home/torm/lv_port_linux-release-v8.2/build/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2 /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/lv_drivers /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers /mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/build/lv_drivers/CMakeFiles/lv_drivers.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lv_drivers/CMakeFiles/lv_drivers.dir/depend
 

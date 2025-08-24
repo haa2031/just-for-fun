@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/torm/lv_port_linux-release-v8.2/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
-  "/home/torm/lv_port_linux-release-v8.2/mouse_cursor_icon.c" "CMakeFiles/main.dir/mouse_cursor_icon.c.o" "gcc" "CMakeFiles/main.dir/mouse_cursor_icon.c.o.d"
+  "/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/mnt/c/Users/huang/just-for-fun/lv_port_linux-release-v8.2/mouse_cursor_icon.c" "CMakeFiles/main.dir/mouse_cursor_icon.c.o" "gcc" "CMakeFiles/main.dir/mouse_cursor_icon.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

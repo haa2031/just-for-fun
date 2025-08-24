@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/usr/bin/arm-linux-gcc")
+set(CMAKE_C_COMPILER "/usr/bin/arm-linux-gnueabihf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "13.3.0")
@@ -21,11 +21,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/bin/ar")
-set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "/usr/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "/usr/bin/ld")
+set(CMAKE_AR "/usr/bin/arm-linux-gnueabihf-ar")
+set(CMAKE_C_COMPILER_AR "/usr/bin/arm-linux-gnueabihf-gcc-ar-13")
+set(CMAKE_RANLIB "/usr/bin/arm-linux-gnueabihf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/usr/bin/arm-linux-gnueabihf-gcc-ranlib-13")
+set(CMAKE_LINKER "/usr/bin/arm-linux-gnueabihf-ld")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCC 1)
@@ -45,7 +45,7 @@ set(CMAKE_C_LINKER_DEPFILE_SUPPORTED TRUE)
 set(CMAKE_C_SIZEOF_DATA_PTR "4")
 set(CMAKE_C_COMPILER_ABI "ELF")
 set(CMAKE_C_BYTE_ORDER "LITTLE_ENDIAN")
-set(CMAKE_C_LIBRARY_ARCHITECTURE "arm-linux-gnueabi")
+set(CMAKE_C_LIBRARY_ARCHITECTURE "arm-linux-gnueabihf")
 
 if(CMAKE_C_SIZEOF_DATA_PTR)
   set(CMAKE_SIZEOF_VOID_P "${CMAKE_C_SIZEOF_DATA_PTR}")
@@ -56,7 +56,7 @@ if(CMAKE_C_COMPILER_ABI)
 endif()
 
 if(CMAKE_C_LIBRARY_ARCHITECTURE)
-  set(CMAKE_LIBRARY_ARCHITECTURE "arm-linux-gnueabi")
+  set(CMAKE_LIBRARY_ARCHITECTURE "arm-linux-gnueabihf")
 endif()
 
 set(CMAKE_C_CL_SHOWINCLUDES_PREFIX "")
@@ -68,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabi/13/include;/usr/arm-linux-gnueabi/include;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include;/usr/arm-linux-gnueabihf/include;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabi/13;/usr/arm-linux-gnueabi/lib;/lib/arm-linux-gnueabi;/usr/lib/arm-linux-gnueabi")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc-cross/arm-linux-gnueabihf/13;/usr/arm-linux-gnueabihf/lib;/lib/arm-linux-gnueabihf;/usr/lib/arm-linux-gnueabihf")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
