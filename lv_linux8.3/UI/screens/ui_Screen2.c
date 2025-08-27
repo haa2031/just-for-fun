@@ -88,5 +88,4 @@ void ui_Screen2_screen_init(void)
 
     lv_obj_add_event_cb(ui_youqianfang, ui_event_youqianfang, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_leidamodechange, ui_event_leidamodechange, LV_EVENT_ALL, NULL);
-
 }
