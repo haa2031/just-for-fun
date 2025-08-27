@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc -g -static -static-libgcc -static-libstdc++ CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/mouse_cursor_icon.c.o -o main  lib/liblvgl.a lvgl/liblvgl_examples.a lvgl/liblvgl_demos.a lib/liblv_drivers.a -lpthread -lm -lrt -ldl UI/libui.a lib/liblvgl.a 
