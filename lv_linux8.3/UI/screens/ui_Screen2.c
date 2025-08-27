@@ -87,5 +87,9 @@ void ui_Screen2_screen_init(void)
     lv_obj_set_style_text_font(ui_leidamodechange, &lv_font_montserrat_14, LV_PART_MAIN | LV_STATE_DEFAULT);
 
     lv_obj_add_event_cb(ui_youqianfang, ui_event_youqianfang, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_zuoqianfang, ui_event_zuoqianfang, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_zuohoufang, ui_event_zuohoufang, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_youhoufang, ui_event_youhoufang, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_leidamodechange, ui_event_leidamodechange, LV_EVENT_ALL, NULL);
+
 }

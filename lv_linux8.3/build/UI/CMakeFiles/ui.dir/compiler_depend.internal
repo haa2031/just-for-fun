@@ -223,80 +223,29 @@ UI/CMakeFiles/ui.dir/components/ui_comp.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -523,80 +472,29 @@ UI/CMakeFiles/ui.dir/components/ui_comp_calendar2.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -823,80 +721,29 @@ UI/CMakeFiles/ui.dir/components/ui_comp_hook.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -1123,80 +970,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_1033847363.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -1423,80 +1219,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_1119118486.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -1723,80 +1468,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_1324262503.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -2023,80 +1717,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_151439093.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -2323,80 +1966,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_165777803.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -2623,80 +2215,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -2923,80 +2464,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_184318935.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -3223,80 +2713,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_1961050311.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -3523,80 +2962,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_2115575519.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -3823,80 +3211,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -4123,80 +3460,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_414159209.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -4423,80 +3709,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_457315224.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -4723,80 +3958,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_525674082.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -5023,80 +4207,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_624413955.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -5323,80 +4456,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_960084724.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -5623,80 +4705,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_960091386.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -5923,80 +4954,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -6223,80 +5203,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -6523,80 +5452,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -6823,80 +5701,29 @@ UI/CMakeFiles/ui.dir/images/ui_img_vector_png.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -7123,80 +5950,29 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen1.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -7423,80 +6199,29 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen2.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -7723,80 +6448,29 @@ UI/CMakeFiles/ui.dir/ui.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h
@@ -8023,80 +6697,29 @@ UI/CMakeFiles/ui.dir/ui_helpers.c.o
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h
  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h
- /usr/arm-linux-gnueabihf/include/alloca.h
- /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h
- /usr/arm-linux-gnueabihf/include/bits/byteswap.h
- /usr/arm-linux-gnueabihf/include/bits/cpu-set.h
- /usr/arm-linux-gnueabihf/include/bits/endian.h
- /usr/arm-linux-gnueabihf/include/bits/endianness.h
- /usr/arm-linux-gnueabihf/include/bits/floatn-common.h
- /usr/arm-linux-gnueabihf/include/bits/floatn.h
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h
  /usr/arm-linux-gnueabihf/include/bits/long-double.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h
- /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h
- /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h
- /usr/arm-linux-gnueabihf/include/bits/sched.h
- /usr/arm-linux-gnueabihf/include/bits/select.h
- /usr/arm-linux-gnueabihf/include/bits/setjmp.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h
  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h
- /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h
- /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h
- /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h
- /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h
- /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h
- /usr/arm-linux-gnueabihf/include/bits/time.h
  /usr/arm-linux-gnueabihf/include/bits/time64.h
  /usr/arm-linux-gnueabihf/include/bits/timesize.h
  /usr/arm-linux-gnueabihf/include/bits/types.h
- /usr/arm-linux-gnueabihf/include/bits/types/FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h
- /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h
- /usr/arm-linux-gnueabihf/include/bits/types/time_t.h
- /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h
  /usr/arm-linux-gnueabihf/include/bits/typesizes.h
- /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h
- /usr/arm-linux-gnueabihf/include/bits/waitflags.h
- /usr/arm-linux-gnueabihf/include/bits/waitstatus.h
  /usr/arm-linux-gnueabihf/include/bits/wchar.h
  /usr/arm-linux-gnueabihf/include/bits/wordsize.h
- /usr/arm-linux-gnueabihf/include/endian.h
  /usr/arm-linux-gnueabihf/include/features-time64.h
  /usr/arm-linux-gnueabihf/include/features.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h
  /usr/arm-linux-gnueabihf/include/gnu/stubs.h
  /usr/arm-linux-gnueabihf/include/inttypes.h
- /usr/arm-linux-gnueabihf/include/pthread.h
- /usr/arm-linux-gnueabihf/include/sched.h
  /usr/arm-linux-gnueabihf/include/stdc-predef.h
  /usr/arm-linux-gnueabihf/include/stdint.h
- /usr/arm-linux-gnueabihf/include/stdio.h
- /usr/arm-linux-gnueabihf/include/stdlib.h
  /usr/arm-linux-gnueabihf/include/string.h
  /usr/arm-linux-gnueabihf/include/strings.h
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h
- /usr/arm-linux-gnueabihf/include/sys/select.h
- /usr/arm-linux-gnueabihf/include/sys/types.h
- /usr/arm-linux-gnueabihf/include/time.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h
  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h

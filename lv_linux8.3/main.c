@@ -17,19 +17,14 @@
 
 int main(void)
 {
-    /*LittlevGL init*/
+    /* LVGL初始化 */
     lv_init();
 
-    /*应用状态初始化*/
-    app_state_init();
-
-    /*Linux frame buffer device init*/
+    /* 帧缓冲驱动初始化（Linux显示） */
     fbdev_init();
 
-    /*A small buffer for LittlevGL to draw the screen's content*/
+     /* 显示缓冲区初始化 */
     static lv_color_t buf[DISP_BUF_SIZE];
-
-    /*Initialize a descriptor for the buffer*/
     static lv_disp_draw_buf_t disp_buf;
     lv_disp_draw_buf_init(&disp_buf, buf, NULL, DISP_BUF_SIZE);
 
@@ -42,36 +37,41 @@ int main(void)
     disp_drv.ver_res    = 480;
     lv_disp_drv_register(&disp_drv);
 
-    /*触摸驱动注册*/
-    evdev_init();
-    static lv_indev_drv_t indev_drv_1;
-    lv_indev_drv_init(&indev_drv_1); /*Basic initialization*/
-    indev_drv_1.type = LV_INDEV_TYPE_POINTER;
+    // /*触摸驱动注册*/
+    // evdev_init();
+    // static lv_indev_drv_t indev_drv_1;
+    // lv_indev_drv_init(&indev_drv_1); /*Basic initialization*/
+    // indev_drv_1.type = LV_INDEV_TYPE_POINTER;
 
-    /*This function will be called periodically (by the library) to get the mouse position and state*/
-    indev_drv_1.read_cb = evdev_read;
-    lv_indev_t *mouse_indev = lv_indev_drv_register(&indev_drv_1);
+    // /*This function will be called periodically (by the library) to get the mouse position and state*/
+    // indev_drv_1.read_cb = evdev_read;
+    // lv_indev_t *mouse_indev = lv_indev_drv_register(&indev_drv_1);
 
 
-    /*鼠标光标设置*/
-    LV_IMG_DECLARE(mouse_cursor_icon)
-    lv_obj_t * cursor_obj = lv_img_create(lv_scr_act()); /*Create an image object for the cursor */
-    lv_img_set_src(cursor_obj, &mouse_cursor_icon);           /*Set the image source*/
-    lv_indev_set_cursor(mouse_indev, cursor_obj);             /*Connect the image  object to the driver*/
+    // /*鼠标光标设置*/
+    // LV_IMG_DECLARE(mouse_cursor_icon)
+    // lv_obj_t * cursor_obj = lv_img_create(lv_scr_act()); /*Create an image object for the cursor */
+    // lv_img_set_src(cursor_obj, &mouse_cursor_icon);           /*Set the image source*/
+    // lv_indev_set_cursor(mouse_indev, cursor_obj);             /*Connect the image  object to the driver*/
 
-    
-    ui_init();  // 初始化UI
-    safesingle_init_gray(); // 设置safesingle初始灰度
-    lv_timer_create((lv_timer_cb_t)update_datetime_label, 60000, NULL);
-    update_datetime_label();
+    /* 初始化命令队列和互斥锁 */
+    queue_init(&cmd_queue);
+    pthread_mutex_init(&cmd_mutex, NULL);
 
-    /*创建终端输入线程*/
-    pthread_t input_thread;
-    if (pthread_create(&input_thread, NULL, input_thread_func, NULL) != 0) {
-        printf("Error: Create input thread failed\n");
+    /* 创建终端输入线程 */
+    pthread_t tid;
+    if (pthread_create(&tid, NULL, terminal_input_thread, NULL) != 0) {
+        perror("[ERROR] 创建终端线程失败");
         return -1;
     }
-    pthread_detach(input_thread); // 线程分离，避免资源泄漏
+
+    ui_init();  // 初始化UI
+
+    /* 创建定时器：1秒更新时间 */
+    lv_timer_create(update_time, 1000, NULL);
+
+    /* 创建定时器：50ms处理命令队列（保证UI响应流畅） */
+    lv_timer_create(process_cmd_queue, 50, NULL);
 
     /*****************************************************************************
      * 4.8 主循环（程序核心，不能退出）
@@ -83,10 +83,14 @@ int main(void)
         usleep(5000);
     }
 
+     /* 资源清理（实际不会执行到） */
+    pthread_mutex_destroy(&cmd_mutex);
+    return 0;
+
     return 0;
 }
 
-/*Set in lv_conf.h as `LV_TICK_CUSTOM_SYS_TIME_EXPR`*/
+/* LVGL时钟回调（必须实现） */
 uint32_t custom_tick_get(void)
 {
     static uint64_t start_ms = 0;

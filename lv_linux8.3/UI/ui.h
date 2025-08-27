@@ -17,20 +17,53 @@ extern "C" {
 #include "components/ui_comp.h"
 #include "components/ui_comp_hook.h"
 #include "ui_events.h"
-#include "time.h"
-#include <string.h>
-#include <stdlib.h>
-#include <stdbool.h>
 #include <stdio.h>
+#include <string.h>
 #include <pthread.h>
+#include <time.h>
+#include <stdlib.h>
 
-void safesingle_init_gray(void);
-void app_state_init(void);
-// 正确的事件回调签名（必须接收 lv_event_t* 参数）
-void ui_event_sportmodechange(lv_event_t *e);
-void ui_event_leidamodechange(lv_event_t *e);
-void *input_thread_func(void *arg);
-void update_datetime_label(void);
+// 命令类型枚举
+typedef enum {
+    CMD_SAFE_ANIM,    // 安全容器控件动画（启停）
+    CMD_LIGHT_TOGGLE, // 灯光控件状态（激活/取消）
+    CMD_SCREEN_SPORT, // 跳转到Screen2
+    CMD_SCREEN_LEIDA, // 跳转到Screen1
+    CMD_UPDATE_LABEL, // 更新里程/温度标签
+    CMD_POINT_ROTATE, // 指针转动（角度控制）
+    CMD_LEIDA_ANIM    // 雷达容器控件动画（启停）
+} CmdType;
+
+// 命令消息结构体
+typedef struct {
+    CmdType type;
+    char name[32];  // 控件名（如"safetybete"）
+    int value;      // 附加值（角度/标签值）
+} CmdMsg;
+
+// 环形队列（用于线程间命令传递）
+#define QUEUE_SIZE 32
+typedef struct {
+    CmdMsg data[QUEUE_SIZE];
+    int front;
+    int rear;
+    int count;
+} Queue;
+
+// 全局变量（需在.c文件定义）
+extern Queue cmd_queue;
+extern pthread_mutex_t cmd_mutex;
+
+// 队列操作函数
+void queue_init(Queue *q);
+bool queue_enqueue(Queue *q, CmdMsg msg);
+bool queue_dequeue(Queue *q, CmdMsg *msg);
+
+// 扩展功能函数
+void update_time(lv_timer_t *timer);       // 时间更新
+void process_cmd_queue(lv_timer_t *timer); // 命令处理
+void *terminal_input_thread(void *arg);    // 终端输入线程
+
 void oilpointanim_Animation(lv_obj_t * TargetObject, int delay);
 void speedanim_Animation(lv_obj_t * TargetObject, int delay);
 void poweranim_Animation(lv_obj_t * TargetObject, int delay);
@@ -72,7 +105,9 @@ extern lv_obj_t * ui_speedpoint;
 extern lv_obj_t * ui_oilpoint;
 extern lv_obj_t * ui_powerpoint;
 extern lv_obj_t * ui_licheng;
+extern lv_obj_t * ui_lichengnum;
 extern lv_obj_t * ui_wendu;
+extern lv_obj_t * ui_wendunum;
 void ui_event_sportmodechange(lv_event_t * e);
 extern lv_obj_t * ui_sportmodechange;
 // SCREEN: ui_Screen2
@@ -81,15 +116,16 @@ extern lv_obj_t * ui_Screen2;
 extern lv_obj_t * ui_leida;
 void ui_event_youqianfang(lv_event_t * e);
 extern lv_obj_t * ui_youqianfang;
+void ui_event_zuoqianfang(lv_event_t * e);
 extern lv_obj_t * ui_zuoqianfang;
+void ui_event_zuohoufang(lv_event_t * e);
 extern lv_obj_t * ui_zuohoufang;
+void ui_event_youhoufang(lv_event_t * e);
 extern lv_obj_t * ui_youhoufang;
 extern lv_obj_t * ui_car;
 void ui_event_leidamodechange(lv_event_t * e);
 extern lv_obj_t * ui_leidamodechange;
 extern lv_obj_t * ui____initial_actions0;
-extern lv_obj_t *ui_licheng_label; 
-extern lv_obj_t *ui_wendu_label;
 
 
 LV_IMG_DECLARE(ui_img_960084724);    // assets/编组 9.png

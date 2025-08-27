@@ -257,16 +257,12 @@ CMakeFiles/main.dir/main.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h \
-  /usr/arm-linux-gnueabihf/include/alloca.h \
   /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
-  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
   /usr/arm-linux-gnueabihf/include/bits/confname.h \
   /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
   /usr/arm-linux-gnueabihf/include/bits/endian.h \
   /usr/arm-linux-gnueabihf/include/bits/endianness.h \
   /usr/arm-linux-gnueabihf/include/bits/environments.h \
-  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
-  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
   /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
   /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
@@ -284,13 +280,6 @@ CMakeFiles/main.dir/main.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdio2-decl.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
-  /usr/arm-linux-gnueabihf/include/bits/stdlib.h \
   /usr/arm-linux-gnueabihf/include/bits/string_fortified.h \
   /usr/arm-linux-gnueabihf/include/bits/strings_fortified.h \
   /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
@@ -300,19 +289,12 @@ CMakeFiles/main.dir/main.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
-  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
   /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
   /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
   /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
@@ -322,15 +304,11 @@ CMakeFiles/main.dir/main.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c
   /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
-  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
   /usr/arm-linux-gnueabihf/include/bits/unistd-decl.h \
   /usr/arm-linux-gnueabihf/include/bits/unistd.h \
   /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
-  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
-  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
-  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
@@ -340,14 +318,11 @@ CMakeFiles/main.dir/main.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c
   /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
-  /usr/arm-linux-gnueabihf/include/stdio.h \
-  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
   /usr/arm-linux-gnueabihf/include/sys/select.h \
   /usr/arm-linux-gnueabihf/include/sys/time.h \
-  /usr/arm-linux-gnueabihf/include/sys/types.h \
   /usr/arm-linux-gnueabihf/include/time.h \
   /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
@@ -601,520 +576,470 @@ CMakeFiles/main.dir/mouse_cursor_icon.c.o: /mnt/c/Users/huang/just-for-fun/lv_li
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/mouse_cursor_icon.c:
 
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h:
+
+/usr/arm-linux-gnueabihf/include/unistd.h:
+
+/usr/arm-linux-gnueabihf/include/time.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/stdint.h:
+
+/usr/arm-linux-gnueabihf/include/pthread.h:
+
+/usr/arm-linux-gnueabihf/include/inttypes.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabihf/include/bits/unistd-decl.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/time_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/locale_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/timesize.h:
+
+/usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h:
+
+/usr/arm-linux-gnueabihf/include/bits/struct_mutex.h:
+
+/usr/arm-linux-gnueabihf/include/bits/strings_fortified.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-intn.h:
+
+/usr/arm-linux-gnueabihf/include/bits/setjmp.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/clock_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select2.h:
+
+/usr/arm-linux-gnueabihf/include/bits/sched.h:
+
+/usr/arm-linux-gnueabihf/include/sys/time.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-least.h:
+
+/usr/arm-linux-gnueabihf/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/long-double.h:
+
+/usr/arm-linux-gnueabihf/include/bits/getopt_posix.h:
+
+/usr/arm-linux-gnueabihf/include/bits/endian.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_slider.h:
+
+/usr/arm-linux-gnueabihf/include/bits/cpu-set.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_line.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_checkbox.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_arc.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select-decl.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_async.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_kconfig.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
+
+/usr/arm-linux-gnueabihf/include/features-time64.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_cache.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_buf.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_triangle.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_line.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_layer.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_arc.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/meter/lv_meter.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_group.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_transform.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_disp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim_timeline.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinner/lv_spinner.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h:
+
+/usr/arm-linux-gnueabihf/include/bits/getopt_core.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_mask.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_roller.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h:
+
+/usr/arm-linux-gnueabihf/include/bits/string_fortified.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/animimg/lv_animimg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/gif/lv_gif.h:
+
+/usr/arm-linux-gnueabihf/include/strings.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_theme.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h:
+
+/usr/arm-linux-gnueabihf/include/string.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_dropdown.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tabview/lv_tabview.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/fragment/lv_fragment.h:
+
+/usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.h:
+
+/usr/arm-linux-gnueabihf/include/bits/time.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_bar.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/lv_layouts.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_api_map.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h:
+
+/usr/arm-linux-gnueabihf/include/bits/environments.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/win/lv_win.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/timer_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/confname.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h:
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_rect.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_refr.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/monkey/lv_monkey.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/rlottie/lv_rlottie.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/qrcode/lv_qrcode.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_indev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/basic/lv_theme_basic.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/led/lv_led.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_label.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/span/lv_span.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/snapshot/lv_snapshot.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_event.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_draw.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h:
+
 /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdint.h:
 
 /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h:
-
-/usr/arm-linux-gnueabihf/include/sched.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_fmt_txt.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_canvas.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/lv_widgets.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_decoder.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdlib-float.h:
-
-/usr/arm-linux-gnueabihf/include/bits/waitstatus.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/png/lv_png.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/chart/lv_chart.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/default/lv_theme_default.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/lv_others.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/imgfont/lv_imgfont.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/bmp/lv_bmp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinbox/lv_spinbox.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/lv_themes.h:
-
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_class.h:
-
-/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/sjpg/lv_sjpg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/menu/lv_menu.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/lv_libs.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/msg/lv_msg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/freetype/lv_freetype.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_log.h:
-
-/usr/arm-linux-gnueabihf/include/bits/unistd.h:
-
-/usr/arm-linux-gnueabihf/include/sys/select.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h:
-
-/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_tree.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_dither.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style_gen.h:
-
-/usr/arm-linux-gnueabihf/include/features.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_scroll.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h:
-
-/usr/arm-linux-gnueabihf/include/bits/endianness.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_symbol_def.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h:
-
-/usr/arm-linux-gnueabihf/include/bits/byteswap.h:
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
 
 /usr/arm-linux-gnueabihf/include/bits/time64.h:
 
-/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/list/lv_list.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/mono/lv_theme_mono.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/snapshot/lv_snapshot.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style_gen.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/span/lv_span.h:
-
-/usr/arm-linux-gnueabihf/include/bits/unistd_ext.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_label.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdio2-decl.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdlib.h:
-
-/usr/arm-linux-gnueabihf/include/bits/floatn-common.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/basic/lv_theme_basic.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_indev.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/qrcode/lv_qrcode.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/rlottie/lv_rlottie.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/monkey/lv_monkey.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/main.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_rect.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h:
-
-/usr/arm-linux-gnueabihf/include/stdc-predef.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h:
-
-/usr/arm-linux-gnueabihf/include/bits/confname.h:
-
-/usr/arm-linux-gnueabihf/include/bits/floatn.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdio_lim.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/timer_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/win/lv_win.h:
-
-/usr/arm-linux-gnueabihf/include/bits/environments.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h:
-
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_assert.h:
 
-/usr/arm-linux-gnueabihf/include/bits/time.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.h:
-
-/usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_dropdown.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_pos.h:
 
-/usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h:
-
-/usr/arm-linux-gnueabihf/include/string.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar.h:
-
-/usr/arm-linux-gnueabihf/include/strings.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/gif/lv_gif.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/animimg/lv_animimg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h:
-
-/usr/arm-linux-gnueabihf/include/bits/string_fortified.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_roller.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_mask.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/lv_layouts.h:
-
-/usr/arm-linux-gnueabihf/include/bits/getopt_core.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinner/lv_spinner.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim_timeline.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tabview/lv_tabview.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_disp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_transform.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/meter/lv_meter.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_arc.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_layer.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_line.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_triangle.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_buf.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_cache.h:
-
-/usr/arm-linux-gnueabihf/include/features-time64.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_theme.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/gridnav/lv_gridnav.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h:
-
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btn.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_kconfig.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_symbol_def.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_api_map.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_async.h:
+/usr/arm-linux-gnueabihf/include/bits/endianness.h:
 
-/usr/arm-linux-gnueabihf/include/bits/select-decl.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_arc.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_scroll.h:
 
-/usr/arm-linux-gnueabihf/include/bits/select.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style_gen.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_checkbox.h:
+/usr/arm-linux-gnueabihf/include/bits/unistd_ext.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_refr.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h:
 
-/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_tree.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_line.h:
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
 
-/usr/arm-linux-gnueabihf/include/bits/cpu-set.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h:
+/usr/arm-linux-gnueabihf/include/sys/select.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h:
+/usr/arm-linux-gnueabihf/include/bits/unistd.h:
 
-/usr/arm-linux-gnueabihf/include/bits/waitflags.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_log.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/freetype/lv_freetype.h:
 
-/usr/arm-linux-gnueabihf/include/alloca.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h:
 
-/usr/arm-linux-gnueabihf/include/bits/wchar.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/msg/lv_msg.h:
 
-/usr/arm-linux-gnueabihf/include/bits/endian.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/lv_libs.h:
 
-/usr/arm-linux-gnueabihf/include/bits/getopt_posix.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/menu/lv_menu.h:
 
-/usr/arm-linux-gnueabihf/include/bits/long-double.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h:
 
-/usr/arm-linux-gnueabihf/include/bits/posix_opt.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/sjpg/lv_sjpg.h:
 
-/usr/arm-linux-gnueabihf/include/bits/stdint-least.h:
+/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h:
 
-/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_class.h:
 
-/usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/fragment/lv_fragment.h:
-
-/usr/arm-linux-gnueabihf/include/endian.h:
-
-/usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h:
-
-/usr/arm-linux-gnueabihf/include/sys/time.h:
-
-/usr/arm-linux-gnueabihf/include/bits/select2.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/clock_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_loader.h:
-
-/usr/arm-linux-gnueabihf/include/bits/setjmp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/led/lv_led.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdint-intn.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdio.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/lv_extra.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h:
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h:
 
-/usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/lv_themes.h:
 
-/usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinbox/lv_spinbox.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/gridnav/lv_gridnav.h:
 
-/usr/arm-linux-gnueabihf/include/bits/stdio2.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/bmp/lv_bmp.h:
 
-/usr/arm-linux-gnueabihf/include/bits/stdlib-bsearch.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/imgfont/lv_imgfont.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/grid/lv_grid.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h:
 
-/usr/arm-linux-gnueabihf/include/bits/strings_fortified.h:
-
-/usr/arm-linux-gnueabihf/include/bits/struct_mutex.h:
-
-/usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h:
-
-/usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_slider.h:
-
-/usr/arm-linux-gnueabihf/include/bits/timesize.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/FILE.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_draw.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_event.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__FILE.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tileview/lv_tileview.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_group.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/locale_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/time_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/uintn-identity.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h:
-
-/usr/arm-linux-gnueabihf/include/bits/sched.h:
-
-/usr/arm-linux-gnueabihf/include/bits/unistd-decl.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h:
-
-/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_disp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h:
-
-/usr/arm-linux-gnueabihf/include/inttypes.h:
-
-/usr/arm-linux-gnueabihf/include/pthread.h:
-
-/usr/arm-linux-gnueabihf/include/stdint.h:
-
-/usr/arm-linux-gnueabihf/include/stdlib.h:
-
-/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
-
-/usr/arm-linux-gnueabihf/include/stdio.h:
-
-/usr/arm-linux-gnueabihf/include/sys/types.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/lv_others.h:
 
 /usr/arm-linux-gnueabihf/include/bits/typesizes.h:
 
-/usr/arm-linux-gnueabihf/include/time.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/default/lv_theme_default.h:
 
-/usr/arm-linux-gnueabihf/include/unistd.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_bar.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/png/lv_png.h:
 
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/mono/lv_theme_mono.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_decoder.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style_gen.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_disp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_dither.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/chart/lv_chart.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/grid/lv_grid.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/list/lv_list.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/lv_widgets.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tileview/lv_tileview.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_canvas.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_fmt_txt.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_loader.h:
+
+/usr/arm-linux-gnueabihf/include/sched.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h:
