@@ -2965,9 +2965,9 @@
 },
 {
   "directory": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI",
-  "command": "/usr/bin/arm-linux-gnueabihf-gcc  -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/. -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/./UI -g -o CMakeFiles/ui.dir/images/ui_img_1681097765.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c",
-  "file": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c",
-  "output": "UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o"
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc  -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/. -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/./UI -g -o CMakeFiles/ui.dir/images/ui_img_1681100838.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c",
+  "file": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c",
+  "output": "UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o"
 },
 {
   "directory": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI",
@@ -3016,6 +3016,12 @@
   "command": "/usr/bin/arm-linux-gnueabihf-gcc  -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/. -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/./UI -g -o CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c",
   "file": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c",
   "output": "UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o"
+},
+{
+  "directory": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI",
+  "command": "/usr/bin/arm-linux-gnueabihf-gcc  -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/. -I/mnt/c/Users/huang/just-for-fun/lv_linux8.3/./UI -g -o CMakeFiles/ui.dir/images/ui_img_761631266.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c",
+  "file": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c",
+  "output": "UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o"
 },
 {
   "directory": "/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI",

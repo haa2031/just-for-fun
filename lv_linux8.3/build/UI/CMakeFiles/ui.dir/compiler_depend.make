@@ -3,6 +3,41 @@
 
 UI/CMakeFiles/ui.dir/components/ui_comp.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -222,29 +257,88 @@ UI/CMakeFiles/ui.dir/components/ui_comp.c.o: /mnt/c/Users/huang/just-for-fun/lv_
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -252,6 +346,41 @@ UI/CMakeFiles/ui.dir/components/ui_comp.c.o: /mnt/c/Users/huang/just-for-fun/lv_
 
 UI/CMakeFiles/ui.dir/components/ui_comp_calendar2.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -470,29 +599,88 @@ UI/CMakeFiles/ui.dir/components/ui_comp_calendar2.c.o: /mnt/c/Users/huang/just-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -500,6 +688,41 @@ UI/CMakeFiles/ui.dir/components/ui_comp_calendar2.c.o: /mnt/c/Users/huang/just-f
 
 UI/CMakeFiles/ui.dir/components/ui_comp_hook.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -718,29 +941,88 @@ UI/CMakeFiles/ui.dir/components/ui_comp_hook.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -748,6 +1030,41 @@ UI/CMakeFiles/ui.dir/components/ui_comp_hook.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_1033847363.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1033847363.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -966,29 +1283,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_1033847363.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -996,6 +1372,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_1033847363.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_1119118486.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1119118486.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -1214,29 +1625,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_1119118486.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -1244,6 +1714,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_1119118486.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_1324262503.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1324262503.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -1462,29 +1967,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_1324262503.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -1492,6 +2056,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_1324262503.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_151439093.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_151439093.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -1710,29 +2309,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_151439093.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -1740,6 +2398,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_151439093.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_165777803.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_165777803.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -1958,36 +2651,130 @@ UI/CMakeFiles/ui.dir/images/ui_img_165777803.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdint.h
 
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c \
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -2206,29 +2993,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -2236,6 +3082,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_184318935.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_184318935.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -2454,29 +3335,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_184318935.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -2484,6 +3424,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_184318935.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_1961050311.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1961050311.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -2702,29 +3677,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_1961050311.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -2732,6 +3766,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_1961050311.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_2115575519.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_2115575519.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -2950,29 +4019,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_2115575519.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -2980,6 +4108,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_2115575519.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_314426297.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -3198,29 +4361,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -3228,6 +4450,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_414159209.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_414159209.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -3446,29 +4703,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_414159209.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -3476,6 +4792,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_414159209.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_457315224.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_457315224.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -3694,29 +5045,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_457315224.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -3724,6 +5134,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_457315224.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_525674082.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_525674082.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -3942,29 +5387,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_525674082.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -3972,6 +5476,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_525674082.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_624413955.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_624413955.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -4190,29 +5729,430 @@ UI/CMakeFiles/ui.dir/images/ui_img_624413955.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdint.h
+
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_assert.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_disp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_group.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_indev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_class.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_draw.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_pos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style_gen.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_tree.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_refr.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_theme.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/grid/lv_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/lv_layouts.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/bmp/lv_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/freetype/lv_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/gif/lv_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/lv_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/png/lv_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/qrcode/lv_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/rlottie/lv_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/sjpg/lv_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/lv_extra.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/fragment/lv_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/gridnav/lv_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/ime/lv_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/imgfont/lv_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/lv_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/monkey/lv_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/msg/lv_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/snapshot/lv_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/basic/lv_theme_basic.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/default/lv_theme_default.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/lv_themes.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/mono/lv_theme_mono.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/animimg/lv_animimg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/chart/lv_chart.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/keyboard/lv_keyboard.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/led/lv_led.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/list/lv_list.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/lv_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/menu/lv_menu.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/meter/lv_meter.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/msgbox/lv_msgbox.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/span/lv_span.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinbox/lv_spinbox.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinner/lv_spinner.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tabview/lv_tabview.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tileview/lv_tileview.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/win/lv_win.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_fmt_txt.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_loader.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_symbol_def.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_assert.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_log.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style_gen.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_arc.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_label.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_layer.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_line.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_mask.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_rect.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_transform.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_triangle.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_buf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_cache.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_decoder.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_pos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_dither.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_gradient.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_disp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_api_map.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_kconfig.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim_timeline.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_async.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_log.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_symbol_def.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_arc.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_bar.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btn.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_canvas.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_checkbox.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_dropdown.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_line.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_roller.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_slider.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
+  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
+  /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
+  /usr/arm-linux-gnueabihf/include/bits/time64.h \
+  /usr/arm-linux-gnueabihf/include/bits/timesize.h \
+  /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
+  /usr/arm-linux-gnueabihf/include/bits/wchar.h \
+  /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
+  /usr/arm-linux-gnueabihf/include/features-time64.h \
+  /usr/arm-linux-gnueabihf/include/features.h \
+  /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
+  /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
+  /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
+  /usr/arm-linux-gnueabihf/include/stdc-predef.h \
+  /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
+  /usr/arm-linux-gnueabihf/include/string.h \
+  /usr/arm-linux-gnueabihf/include/strings.h \
+  /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -4220,6 +6160,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_624413955.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_960084724.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960084724.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -4438,29 +6413,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_960084724.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -4468,6 +6502,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_960084724.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_960091386.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960091386.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -4686,29 +6755,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_960091386.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -4716,6 +6844,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_960091386.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960096759.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -4934,29 +7097,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o: /mnt/c/Users/huang/just-for-fu
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -4964,6 +7186,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o: /mnt/c/Users/huang/just-for-fu
 
 UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -5182,29 +7439,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o: /mnt/c/Users/huang/just-for
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -5212,6 +7528,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o: /mnt/c/Users/huang/just-for
 
 UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_rectangle_1_png.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -5430,29 +7781,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: /mnt/c/Users/huang/just-
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -5460,6 +7870,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: /mnt/c/Users/huang/just-
 
 UI/CMakeFiles/ui.dir/images/ui_img_vector_png.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_vector_png.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -5678,29 +8123,88 @@ UI/CMakeFiles/ui.dir/images/ui_img_vector_png.c.o: /mnt/c/Users/huang/just-for-f
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -5708,6 +8212,41 @@ UI/CMakeFiles/ui.dir/images/ui_img_vector_png.c.o: /mnt/c/Users/huang/just-for-f
 
 UI/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/screens/ui_Screen1.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -5926,29 +8465,88 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: /mnt/c/Users/huang/just-for-fun/lv_
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -5956,6 +8554,41 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen1.c.o: /mnt/c/Users/huang/just-for-fun/lv_
 
 UI/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/screens/ui_Screen2.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -6174,29 +8807,88 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: /mnt/c/Users/huang/just-for-fun/lv_
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -6204,6 +8896,41 @@ UI/CMakeFiles/ui.dir/screens/ui_Screen2.c.o: /mnt/c/Users/huang/just-for-fun/lv_
 
 UI/CMakeFiles/ui.dir/ui.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -6422,29 +9149,88 @@ UI/CMakeFiles/ui.dir/ui.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.c
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -6452,6 +9238,41 @@ UI/CMakeFiles/ui.dir/ui.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.c
 
 UI/CMakeFiles/ui.dir/ui_helpers.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.c \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h \
+  /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h \
@@ -6670,29 +9491,88 @@ UI/CMakeFiles/ui.dir/ui_helpers.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h \
   /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h \
+  /usr/arm-linux-gnueabihf/include/alloca.h \
+  /usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h \
+  /usr/arm-linux-gnueabihf/include/bits/byteswap.h \
+  /usr/arm-linux-gnueabihf/include/bits/confname.h \
+  /usr/arm-linux-gnueabihf/include/bits/cpu-set.h \
+  /usr/arm-linux-gnueabihf/include/bits/endian.h \
+  /usr/arm-linux-gnueabihf/include/bits/endianness.h \
+  /usr/arm-linux-gnueabihf/include/bits/environments.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn-common.h \
+  /usr/arm-linux-gnueabihf/include/bits/floatn.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_core.h \
+  /usr/arm-linux-gnueabihf/include/bits/getopt_posix.h \
   /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
   /usr/arm-linux-gnueabihf/include/bits/long-double.h \
+  /usr/arm-linux-gnueabihf/include/bits/posix_opt.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
+  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h \
+  /usr/arm-linux-gnueabihf/include/bits/sched.h \
+  /usr/arm-linux-gnueabihf/include/bits/select.h \
+  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-intn.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-least.h \
   /usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdio_lim.h \
+  /usr/arm-linux-gnueabihf/include/bits/stdlib-float.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_mutex.h \
+  /usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h \
+  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
+  /usr/arm-linux-gnueabihf/include/bits/time.h \
   /usr/arm-linux-gnueabihf/include/bits/time64.h \
   /usr/arm-linux-gnueabihf/include/bits/timesize.h \
   /usr/arm-linux-gnueabihf/include/bits/types.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h \
   /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
+  /usr/arm-linux-gnueabihf/include/bits/types/timer_t.h \
   /usr/arm-linux-gnueabihf/include/bits/typesizes.h \
+  /usr/arm-linux-gnueabihf/include/bits/uintn-identity.h \
+  /usr/arm-linux-gnueabihf/include/bits/unistd_ext.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitflags.h \
+  /usr/arm-linux-gnueabihf/include/bits/waitstatus.h \
   /usr/arm-linux-gnueabihf/include/bits/wchar.h \
   /usr/arm-linux-gnueabihf/include/bits/wordsize.h \
+  /usr/arm-linux-gnueabihf/include/endian.h \
   /usr/arm-linux-gnueabihf/include/features-time64.h \
   /usr/arm-linux-gnueabihf/include/features.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h \
   /usr/arm-linux-gnueabihf/include/gnu/stubs.h \
   /usr/arm-linux-gnueabihf/include/inttypes.h \
+  /usr/arm-linux-gnueabihf/include/pthread.h \
+  /usr/arm-linux-gnueabihf/include/sched.h \
   /usr/arm-linux-gnueabihf/include/stdc-predef.h \
   /usr/arm-linux-gnueabihf/include/stdint.h \
+  /usr/arm-linux-gnueabihf/include/stdio.h \
+  /usr/arm-linux-gnueabihf/include/stdlib.h \
   /usr/arm-linux-gnueabihf/include/string.h \
   /usr/arm-linux-gnueabihf/include/strings.h \
   /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
+  /usr/arm-linux-gnueabihf/include/sys/select.h \
+  /usr/arm-linux-gnueabihf/include/sys/time.h \
+  /usr/arm-linux-gnueabihf/include/sys/types.h \
+  /usr/arm-linux-gnueabihf/include/time.h \
+  /usr/arm-linux-gnueabihf/include/unistd.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
@@ -6703,364 +9583,548 @@ UI/CMakeFiles/ui.dir/ui_helpers.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.c:
 
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/screens/ui_Screen2.c:
+
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/screens/ui_Screen1.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960091386.c:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_vector_png.c:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960084724.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_rectangle_1_png.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_624413955.c:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_525674082.c:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_457315224.c:
-
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_414159209.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_314426297.c:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1961050311.c:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_151439093.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1324262503.c:
+/usr/arm-linux-gnueabihf/include/sched.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_fmt_txt.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_2115575519.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/fragment/lv_example_fragment.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_canvas.h:
 
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_457315224.c:
 
-/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h:
 
-/usr/arm-linux-gnueabihf/include/stdint.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/lv_widgets.h:
 
-/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/grid/lv_grid.h:
 
-/usr/arm-linux-gnueabihf/include/inttypes.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h:
 
-/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
-
-/usr/arm-linux-gnueabihf/include/bits/wchar.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1033847363.c:
-
-/usr/arm-linux-gnueabihf/include/bits/types/locale_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h:
-
-/usr/arm-linux-gnueabihf/include/bits/types.h:
-
-/usr/arm-linux-gnueabihf/include/bits/timesize.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdint-least.h:
-
-/usr/arm-linux-gnueabihf/include/bits/stdint-intn.h:
-
-/usr/arm-linux-gnueabihf/include/bits/long-double.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/mono/lv_theme_mono.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btnmatrix.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_decoder.h:
+/usr/arm-linux-gnueabihf/include/bits/stdlib-float.h:
+
+/usr/arm-linux-gnueabihf/include/bits/waitstatus.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/win/lv_win.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1119118486.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/basic/lv_theme_basic.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_184318935.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_line.h:
-
-/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/default/lv_theme_default.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_arc.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/snapshot/lv_snapshot.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_theme.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_rectangle_1_png.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/lv_others.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_layer.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/gridnav/lv_gridnav.h:
-
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h:
+/usr/arm-linux-gnueabihf/include/bits/environments.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/lv_themes.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinbox/lv_spinbox.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960084724.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_arc.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/png/lv_png.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/menu/lv_menu.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/chart/lv_chart.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/sjpg/lv_example_sjpg.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/default/lv_theme_default.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/lv_others.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/imgfont/lv_imgfont.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/bmp/lv_bmp.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/screens/ui_Screen2.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_layer.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/lv_layouts.h:
+/usr/arm-linux-gnueabihf/include/bits/types/struct___jmp_buf_tag.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/animimg/lv_animimg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/fragment/lv_fragment.h:
-
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdint.h:
-
-/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h:
-
-/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
-
-/usr/arm-linux-gnueabihf/include/bits/time64.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_assert.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_mask.h:
-
-/usr/arm-linux-gnueabihf/include/string.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_draw.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_event.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/sjpg/lv_sjpg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960096759.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/gif/lv_gif.h:
-
-/usr/arm-linux-gnueabihf/include/strings.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/qrcode/lv_qrcode.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_indev.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/lv_libs.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/freetype/lv_freetype.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/msg/lv_msg.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_async.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/monkey/lv_monkey.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_tree.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_arc.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h:
-
-/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_triangle.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_165777803.c:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_disp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_buf.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/rlottie/lv_rlottie.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_group.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/lv_extra.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/ime/lv_ime_pinyin.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_class.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/meter/lv_meter.h:
+/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min-dynamic.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_pos.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/sjpg/lv_sjpg.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/png/lv_example_png.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/menu/lv_menu.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style_gen.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/lv_libs.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_img.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_scroll.h:
+/usr/arm-linux-gnueabihf/include/bits/types/__fpos64_t.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/msg/lv_msg.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/anim/lv_example_anim.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_fs.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/chart/lv_chart.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/led/lv_led.h:
-
-/usr/arm-linux-gnueabihf/include/features.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/grid/lv_grid.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/list/lv_list.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/lv_widgets.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
-
-/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_checkbox.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tileview/lv_tileview.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_transform.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_loader.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/freetype/lv_freetype.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_log.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_conf.h:
+/usr/arm-linux-gnueabihf/include/sys/select.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_mem.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_math.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h:
+/usr/arm-linux-gnueabihf/include/bits/wordsize.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style_gen.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/span/lv_span.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_label.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h:
-
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_refr.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/lv_examples.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_rect.h:
 
-/usr/arm-linux-gnueabihf/include/features-time64.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_cache.h:
+/usr/arm-linux-gnueabihf/include/strings.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_dither.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/gif/lv_gif.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_disp.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/ime/lv_example_ime_pinyin.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_bidi.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/span/lv_span.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_api_map.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/lv_example_others.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_kconfig.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style_gen.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/freetype/lv_example_freetype.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinner/lv_spinner.h:
+/usr/arm-linux-gnueabihf/include/bits/byteswap.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim_timeline.h:
+/usr/arm-linux-gnueabihf/include/bits/time64.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_2115575519.c:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_bar.h:
+/usr/arm-linux-gnueabihf/include/gnu/stubs-hard.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdint.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/list/lv_list.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_symbol_def.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btn.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/flex/lv_flex.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_fmt_txt.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_assert.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_canvas.h:
+/usr/arm-linux-gnueabihf/include/bits/time.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tabview/lv_tabview.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/mono/lv_theme_mono.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_dropdown.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/widgets/lv_example_widgets.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_line.h:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/snapshot/lv_snapshot.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/snapshot/lv_example_snapshot.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-uintn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/display/fbdev.h:
+
+/usr/arm-linux-gnueabihf/include/bits/floatn-common.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_line.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/themes/basic/lv_theme_basic.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1119118486.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/bmp/lv_example_bmp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_internal.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960091386.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_indev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/qrcode/lv_qrcode.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/flex/lv_example_flex.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_img.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/monkey/lv_example_monkey.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/get_started/lv_example_get_started.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/rlottie/lv_rlottie.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/monkey/lv_monkey.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/animimg/lv_animimg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drivers/indev/evdev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_decoder.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_calendar2.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_mask.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/scroll/lv_example_scroll.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_dither.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_style_gen.h:
+
+/usr/arm-linux-gnueabihf/include/features.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_scroll.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/gridnav/lv_example_gridnav.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/qrcode/lv_example_qrcode.h:
+
+/usr/arm-linux-gnueabihf/include/stdc-predef.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/widgets/lv_demo_widgets.h:
+
+/usr/arm-linux-gnueabihf/include/bits/confname.h:
+
+/usr/arm-linux-gnueabihf/include/bits/floatn.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdio_lim.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/timer_t.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/rlottie/lv_example_rlottie.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_ll.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/gif/lv_example_gif.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lvgl.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_label.h:
+
+/usr/arm-linux-gnueabihf/include/bits/unistd_ext.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/demos/lv_demos.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/imgfont/lv_example_imgfont.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/others/msg/lv_example_msg.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_roller.h:
 
-/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_314426297.c:
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_color.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/layouts/lv_layouts.h:
+
+/usr/arm-linux-gnueabihf/include/bits/getopt_core.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/styles/lv_example_style.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_dropdown.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/msgbox/lv_msgbox.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_pos.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_timespec.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj.h:
+
+/usr/arm-linux-gnueabihf/include/string.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/grid/lv_example_grid.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_style.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_FILE.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/spinner/lv_spinner.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_anim_timeline.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tabview/lv_tabview.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_disp.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_165777803.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_txt.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_transform.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_types.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/meter/lv_meter.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_printf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/endianness.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_tree.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_draw_triangle.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_buf.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/lv_img_cache.h:
+
+/usr/arm-linux-gnueabihf/include/features-time64.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_theme.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/event/lv_example_event.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/draw/sw/lv_draw_sw_gradient.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_switch.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_indev.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_timer.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/gridnav/lv_gridnav.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_tick.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_btn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_conf_kconfig.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/lv_api_map.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_async.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_label.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_arc.h:
+
+/usr/arm-linux-gnueabihf/include/bits/select.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_checkbox.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_refr.h:
+
+/usr/arm-linux-gnueabihf/include/bits/libc-header-start.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_line.h:
+
+/usr/arm-linux-gnueabihf/include/bits/cpu-set.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_table.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_events.h:
+
+/usr/arm-linux-gnueabihf/include/bits/waitflags.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/lvgl.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_textarea.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp.h:
+
+/usr/arm-linux-gnueabihf/include/bits/atomic_wide_counter.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/ui_helpers.h:
+
+/usr/arm-linux-gnueabihf/include/alloca.h:
+
+/usr/arm-linux-gnueabihf/include/bits/wchar.h:
+
+/usr/arm-linux-gnueabihf/include/bits/endian.h:
+
+/usr/arm-linux-gnueabihf/include/bits/getopt_posix.h:
+
+/usr/arm-linux-gnueabihf/include/bits/long-double.h:
+
+/usr/arm-linux-gnueabihf/include/bits/posix_opt.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-least.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthread_stack_min.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_tm.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/others/fragment/lv_fragment.h:
+
+/usr/arm-linux-gnueabihf/include/endian.h:
+
+/usr/arm-linux-gnueabihf/include/bits/pthreadtypes.h:
+
+/usr/arm-linux-gnueabihf/include/sys/time.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/misc/lv_area.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_184318935.c:
+
+/usr/arm-linux-gnueabihf/include/bits/sched.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/font/lv_font_loader.h:
+
+/usr/arm-linux-gnueabihf/include/bits/setjmp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/led/lv_led.h:
+
+/usr/arm-linux-gnueabihf/include/bits/stdint-intn.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c:
+
+/usr/arm-linux-gnueabihf/include/bits/struct_mutex.h:
+
+/usr/arm-linux-gnueabihf/include/bits/struct_rwlock.h:
+
+/usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h:
 
 /mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_slider.h:
+
+/usr/arm-linux-gnueabihf/include/bits/timesize.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/FILE.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_event.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_obj_draw.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__FILE.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__fpos_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/tileview/lv_tileview.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/core/lv_group.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__mbstate_t.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/widgets/keyboard/lv_keyboard.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/__sigset_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/clock_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/cookie_io_functions_t.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lv_drv_conf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/locale_t.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1033847363.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/lv_extra.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_itimerspec.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/struct_sched_param.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/time_t.h:
+
+/usr/arm-linux-gnueabihf/include/bits/uintn-identity.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/libs/lv_example_libs.h:
+
+/usr/arm-linux-gnueabihf/include/bits/types/sigset_t.h:
+
+/usr/arm-linux-gnueabihf/include/gnu/stubs.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/hal/lv_hal_disp.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/examples/layouts/lv_example_layout.h:
+
+/usr/arm-linux-gnueabihf/include/inttypes.h:
+
+/usr/arm-linux-gnueabihf/include/pthread.h:
+
+/usr/arm-linux-gnueabihf/include/stdint.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960096759.c:
+
+/usr/arm-linux-gnueabihf/include/stdlib.h:
+
+/usr/arm-linux-gnueabihf/include/sys/cdefs.h:
+
+/usr/arm-linux-gnueabihf/include/stdio.h:
+
+/usr/arm-linux-gnueabihf/include/sys/types.h:
+
+/usr/arm-linux-gnueabihf/include/bits/typesizes.h:
+
+/usr/arm-linux-gnueabihf/include/time.h:
+
+/usr/arm-linux-gnueabihf/include/unistd.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/lvgl/src/widgets/lv_bar.h:
+
+/usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/components/ui_comp_hook.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1324262503.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_151439093.c:
+
+/mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c:

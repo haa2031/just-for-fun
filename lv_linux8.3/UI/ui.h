@@ -17,53 +17,19 @@ extern "C" {
 #include "components/ui_comp.h"
 #include "components/ui_comp_hook.h"
 #include "ui_events.h"
-#include <stdio.h>
-#include <string.h>
+#include "lvgl/demos/lv_demos.h"
+#include "lvgl/examples/lv_examples.h"
+#include "lv_drivers/display/fbdev.h"
+#include "lv_drivers/indev/evdev.h"
+#include <unistd.h>
 #include <pthread.h>
 #include <time.h>
+#include <sys/time.h>
+#include <string.h>
+#include <stdio.h>
 #include <stdlib.h>
 
-// 命令类型枚举
-typedef enum {
-    CMD_SAFE_ANIM,    // 安全容器控件动画（启停）
-    CMD_LIGHT_TOGGLE, // 灯光控件状态（激活/取消）
-    CMD_SCREEN_SPORT, // 跳转到Screen2
-    CMD_SCREEN_LEIDA, // 跳转到Screen1
-    CMD_UPDATE_LABEL, // 更新里程/温度标签
-    CMD_POINT_ROTATE, // 指针转动（角度控制）
-    CMD_LEIDA_ANIM    // 雷达容器控件动画（启停）
-} CmdType;
-
-// 命令消息结构体
-typedef struct {
-    CmdType type;
-    char name[32];  // 控件名（如"safetybete"）
-    int value;      // 附加值（角度/标签值）
-} CmdMsg;
-
-// 环形队列（用于线程间命令传递）
-#define QUEUE_SIZE 32
-typedef struct {
-    CmdMsg data[QUEUE_SIZE];
-    int front;
-    int rear;
-    int count;
-} Queue;
-
-// 全局变量（需在.c文件定义）
-extern Queue cmd_queue;
-extern pthread_mutex_t cmd_mutex;
-
-// 队列操作函数
-void queue_init(Queue *q);
-bool queue_enqueue(Queue *q, CmdMsg msg);
-bool queue_dequeue(Queue *q, CmdMsg *msg);
-
-// 扩展功能函数
-void update_time(lv_timer_t *timer);       // 时间更新
-void process_cmd_queue(lv_timer_t *timer); // 命令处理
-void *terminal_input_thread(void *arg);    // 终端输入线程
-
+// void point_anim_ready_cb(lv_anim_t *a);
 void oilpointanim_Animation(lv_obj_t * TargetObject, int delay);
 void speedanim_Animation(lv_obj_t * TargetObject, int delay);
 void poweranim_Animation(lv_obj_t * TargetObject, int delay);
@@ -97,8 +63,9 @@ extern lv_obj_t * ui_farlight;
 extern lv_obj_t * ui_timepanel;
 extern lv_obj_t * ui_timelabel;
 extern lv_obj_t * ui_yibiaopanpng;
-extern lv_obj_t * ui_bottomsingle1;
-extern lv_obj_t * ui_bottomsingle2;
+void ui_event_fadonji(lv_event_t * e);
+extern lv_obj_t * ui_fadonji;
+extern lv_obj_t * ui_bottomsingle;
 extern lv_obj_t * ui_topsingle1;
 extern lv_obj_t * ui_topsingle2;
 extern lv_obj_t * ui_speedpoint;
@@ -110,10 +77,12 @@ extern lv_obj_t * ui_wendu;
 extern lv_obj_t * ui_wendunum;
 void ui_event_sportmodechange(lv_event_t * e);
 extern lv_obj_t * ui_sportmodechange;
+extern lv_obj_t * ui_oilwendu;
+extern lv_obj_t * ui_oilwendunum;
 // SCREEN: ui_Screen2
 void ui_Screen2_screen_init(void);
 extern lv_obj_t * ui_Screen2;
-extern lv_obj_t * ui_leida;
+extern lv_obj_t * ui_luntai;
 void ui_event_youqianfang(lv_event_t * e);
 extern lv_obj_t * ui_youqianfang;
 void ui_event_zuoqianfang(lv_event_t * e);
@@ -122,11 +91,19 @@ void ui_event_zuohoufang(lv_event_t * e);
 extern lv_obj_t * ui_zuohoufang;
 void ui_event_youhoufang(lv_event_t * e);
 extern lv_obj_t * ui_youhoufang;
-extern lv_obj_t * ui_car;
 void ui_event_leidamodechange(lv_event_t * e);
 extern lv_obj_t * ui_leidamodechange;
+extern lv_obj_t * ui_car;
+extern lv_obj_t * ui_leida;
+void ui_event_youshangld(lv_event_t * e);
+extern lv_obj_t * ui_youshangld;
+void ui_event_youxiald(lv_event_t * e);
+extern lv_obj_t * ui_youxiald;
+void ui_event_zuoxiald(lv_event_t * e);
+extern lv_obj_t * ui_zuoxiald;
+void ui_event_zuoshangld(lv_event_t * e);
+extern lv_obj_t * ui_zuoshangld;
 extern lv_obj_t * ui____initial_actions0;
-
 
 LV_IMG_DECLARE(ui_img_960084724);    // assets/编组 9.png
 LV_IMG_DECLARE(ui_img_624413955);    // assets/分组 26.png
@@ -138,7 +115,7 @@ LV_IMG_DECLARE(ui_img_165777803);    // assets/胎压过低.png
 LV_IMG_DECLARE(ui_img_151439093);    // assets/胎压过高.png
 LV_IMG_DECLARE(ui_img_vector_png);    // assets/Vector.png
 LV_IMG_DECLARE(ui_img_314426297);    // assets/远光灯.png
-LV_IMG_DECLARE(ui_img_1681097765);    // assets/OBJECTS (3).png
+LV_IMG_DECLARE(ui_img_1681100838);    // assets/OBJECTS (4).png
 LV_IMG_DECLARE(ui_img_960096759);    // assets/编组 6.png
 LV_IMG_DECLARE(ui_img_960091386);    // assets/编组 3.png
 LV_IMG_DECLARE(ui_img_414159209);    // assets/编组 7备份 7.png
@@ -147,6 +124,7 @@ LV_IMG_DECLARE(ui_img_2115575519);    // assets/路径 1600.png
 LV_IMG_DECLARE(ui_img_1033847363);    // assets/路径 1611.png
 LV_IMG_DECLARE(ui_img_1324262503);    // assets/故障点.png
 LV_IMG_DECLARE(ui_img_group_14_png);    // assets/Group 14.png
+LV_IMG_DECLARE(ui_img_761631266);    // assets/音波 (1).png
 LV_IMG_DECLARE(ui_img_rectangle_1_png);    // assets/Rectangle 1.png
 
 

@@ -367,29 +367,29 @@ images/ui_img_165777803.c.s:
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_165777803.c.s
 .PHONY : images/ui_img_165777803.c.s
 
-images/ui_img_1681097765.o: images/ui_img_1681097765.c.o
-.PHONY : images/ui_img_1681097765.o
+images/ui_img_1681100838.o: images/ui_img_1681100838.c.o
+.PHONY : images/ui_img_1681100838.o
 
 # target to build an object file
-images/ui_img_1681097765.c.o:
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o
-.PHONY : images/ui_img_1681097765.c.o
+images/ui_img_1681100838.c.o:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o
+.PHONY : images/ui_img_1681100838.c.o
 
-images/ui_img_1681097765.i: images/ui_img_1681097765.c.i
-.PHONY : images/ui_img_1681097765.i
+images/ui_img_1681100838.i: images/ui_img_1681100838.c.i
+.PHONY : images/ui_img_1681100838.i
 
 # target to preprocess a source file
-images/ui_img_1681097765.c.i:
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.i
-.PHONY : images/ui_img_1681097765.c.i
+images/ui_img_1681100838.c.i:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.i
+.PHONY : images/ui_img_1681100838.c.i
 
-images/ui_img_1681097765.s: images/ui_img_1681097765.c.s
-.PHONY : images/ui_img_1681097765.s
+images/ui_img_1681100838.s: images/ui_img_1681100838.c.s
+.PHONY : images/ui_img_1681100838.s
 
 # target to generate assembly for a file
-images/ui_img_1681097765.c.s:
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.s
-.PHONY : images/ui_img_1681097765.c.s
+images/ui_img_1681100838.c.s:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.s
+.PHONY : images/ui_img_1681100838.c.s
 
 images/ui_img_184318935.o: images/ui_img_184318935.c.o
 .PHONY : images/ui_img_184318935.o
@@ -582,6 +582,30 @@ images/ui_img_624413955.s: images/ui_img_624413955.c.s
 images/ui_img_624413955.c.s:
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_624413955.c.s
 .PHONY : images/ui_img_624413955.c.s
+
+images/ui_img_761631266.o: images/ui_img_761631266.c.o
+.PHONY : images/ui_img_761631266.o
+
+# target to build an object file
+images/ui_img_761631266.c.o:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o
+.PHONY : images/ui_img_761631266.c.o
+
+images/ui_img_761631266.i: images/ui_img_761631266.c.i
+.PHONY : images/ui_img_761631266.i
+
+# target to preprocess a source file
+images/ui_img_761631266.c.i:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.i
+.PHONY : images/ui_img_761631266.c.i
+
+images/ui_img_761631266.s: images/ui_img_761631266.c.s
+.PHONY : images/ui_img_761631266.s
+
+# target to generate assembly for a file
+images/ui_img_761631266.c.s:
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build && $(MAKE) $(MAKESILENT) -f UI/CMakeFiles/ui.dir/build.make UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.s
+.PHONY : images/ui_img_761631266.c.s
 
 images/ui_img_960084724.o: images/ui_img_960084724.c.o
 .PHONY : images/ui_img_960084724.o
@@ -860,9 +884,9 @@ help:
 	@echo "... images/ui_img_165777803.o"
 	@echo "... images/ui_img_165777803.i"
 	@echo "... images/ui_img_165777803.s"
-	@echo "... images/ui_img_1681097765.o"
-	@echo "... images/ui_img_1681097765.i"
-	@echo "... images/ui_img_1681097765.s"
+	@echo "... images/ui_img_1681100838.o"
+	@echo "... images/ui_img_1681100838.i"
+	@echo "... images/ui_img_1681100838.s"
 	@echo "... images/ui_img_184318935.o"
 	@echo "... images/ui_img_184318935.i"
 	@echo "... images/ui_img_184318935.s"
@@ -887,6 +911,9 @@ help:
 	@echo "... images/ui_img_624413955.o"
 	@echo "... images/ui_img_624413955.i"
 	@echo "... images/ui_img_624413955.s"
+	@echo "... images/ui_img_761631266.o"
+	@echo "... images/ui_img_761631266.i"
+	@echo "... images/ui_img_761631266.s"
 	@echo "... images/ui_img_960084724.o"
 	@echo "... images/ui_img_960084724.i"
 	@echo "... images/ui_img_960084724.s"

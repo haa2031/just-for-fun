@@ -4,25 +4,6 @@
 // Project name: SquareLine_Project
 
 #include "ui.h"
-#include "ui_helpers.h"
-
-// 全局命令队列和互斥锁
-Queue cmd_queue;
-pthread_mutex_t cmd_mutex;
-
-///////////////////// VARIABLES ////////////////////
-void oilpointanim_Animation(lv_obj_t * TargetObject, int delay);
-void speedanim_Animation(lv_obj_t * TargetObject, int delay);
-void poweranim_Animation(lv_obj_t * TargetObject, int delay);
-void oilboxanim_Animation(lv_obj_t * TargetObject, int delay);
-void motoranim_Animation(lv_obj_t * TargetObject, int delay);
-void safetybeteanim_Animation(lv_obj_t * TargetObject, int delay);
-void hydraulicanim_Animation(lv_obj_t * TargetObject, int delay);
-void rightlightanim_Animation(lv_obj_t * TargetObject, int delay);
-void leftlightanim_Animation(lv_obj_t * TargetObject, int delay);
-void taiyahighlight_Animation(lv_obj_t * TargetObject, int delay);
-void taiyalowlight_Animation(lv_obj_t * TargetObject, int delay);
-
 
 // SCREEN: ui_Screen1
 void ui_Screen1_screen_init(void);
@@ -46,8 +27,9 @@ lv_obj_t * ui_farlight;
 lv_obj_t * ui_timepanel;
 lv_obj_t * ui_timelabel;
 lv_obj_t * ui_yibiaopanpng;
-lv_obj_t * ui_bottomsingle1;
-lv_obj_t * ui_bottomsingle2;
+void ui_event_fadonji(lv_event_t * e);
+lv_obj_t * ui_fadonji;
+lv_obj_t * ui_bottomsingle;
 lv_obj_t * ui_topsingle1;
 lv_obj_t * ui_topsingle2;
 lv_obj_t * ui_speedpoint;
@@ -59,12 +41,14 @@ lv_obj_t * ui_wendu;
 lv_obj_t * ui_wendunum;
 void ui_event_sportmodechange(lv_event_t * e);
 lv_obj_t * ui_sportmodechange;
+lv_obj_t * ui_oilwendu;
+lv_obj_t * ui_oilwendunum;
 
 
 // SCREEN: ui_Screen2
 void ui_Screen2_screen_init(void);
 lv_obj_t * ui_Screen2;
-lv_obj_t * ui_leida;
+lv_obj_t * ui_luntai;
 void ui_event_youqianfang(lv_event_t * e);
 lv_obj_t * ui_youqianfang;
 void ui_event_zuoqianfang(lv_event_t * e);
@@ -73,16 +57,25 @@ void ui_event_zuohoufang(lv_event_t * e);
 lv_obj_t * ui_zuohoufang;
 void ui_event_youhoufang(lv_event_t * e);
 lv_obj_t * ui_youhoufang;
-lv_obj_t * ui_car;
 void ui_event_leidamodechange(lv_event_t * e);
 lv_obj_t * ui_leidamodechange;
+lv_obj_t * ui_car;
+lv_obj_t * ui_leida;
+void ui_event_youshangld(lv_event_t * e);
+lv_obj_t * ui_youshangld;
+void ui_event_youxiald(lv_event_t * e);
+lv_obj_t * ui_youxiald;
+void ui_event_zuoxiald(lv_event_t * e);
+lv_obj_t * ui_zuoxiald;
+void ui_event_zuoshangld(lv_event_t * e);
+lv_obj_t * ui_zuoshangld;
 lv_obj_t * ui____initial_actions0;
+const lv_img_dsc_t * ui_imgset_group_[1] = {&ui_img_group_14_png};
 const lv_img_dsc_t * ui_imgset_rectangle_[1] = {&ui_img_rectangle_1_png};
 const lv_img_dsc_t * ui_imgset_1405107096[4] = {&ui_img_624413955, &ui_img_457315224, &ui_img_1961050311, &ui_img_525674082};
 const lv_img_dsc_t * ui_imgset_1405351560[3] = {&ui_img_960091386, &ui_img_960096759, &ui_img_960084724};
 const lv_img_dsc_t * ui_imgset_926454100[1] = {&ui_img_414159209};
 const lv_img_dsc_t * ui_imgset_250055599[3] = {&ui_img_184318935, &ui_img_2115575519, &ui_img_1033847363};
-const lv_img_dsc_t * ui_imgset_group_[1] = {&ui_img_group_14_png};
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////
 #if LV_COLOR_DEPTH != 32
@@ -201,7 +194,7 @@ void motoranim_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -224,7 +217,7 @@ void safetybeteanim_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -247,7 +240,7 @@ void hydraulicanim_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -270,7 +263,7 @@ void rightlightanim_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -293,7 +286,7 @@ void leftlightanim_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -316,7 +309,7 @@ void taiyahighlight_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -339,7 +332,7 @@ void taiyalowlight_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 1);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 0);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_set_get_value_cb(&PropertyAnimation_0, &_ui_anim_callback_get_opacity);
@@ -362,6 +355,14 @@ void ui_event_farlight(lv_event_t * e)
     lv_obj_t * target = lv_event_get_target(e);
     if(event_code == LV_EVENT_CLICKED) {
         _ui_opacity_set(ui_farlight, 255);
+    }
+}
+void ui_event_fadonji(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_opacity_set(ui_fadonji, 255);
     }
 }
 void ui_event_sportmodechange(lv_event_t * e)
@@ -412,329 +413,671 @@ void ui_event_leidamodechange(lv_event_t * e)
         _ui_screen_change(&ui_Screen1, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_Screen1_screen_init);
     }
 }
-
-/************************* 队列操作实现 *************************/
-void queue_init(Queue *q) {
-    q->front = 0;
-    q->rear = 0;
-    q->count = 0;
+void ui_event_youshangld(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_opacity_set(ui_youshangld, 255);
+    }
+}
+void ui_event_youxiald(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_opacity_set(ui_youxiald, 255);
+    }
+}
+void ui_event_zuoxiald(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_opacity_set(ui_zuoxiald, 255);
+    }
+}
+void ui_event_zuoshangld(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_opacity_set(ui_zuoshangld, 255);
+    }
 }
 
-bool queue_enqueue(Queue *q, CmdMsg msg) {
-    if (q->count >= QUEUE_SIZE) return false;
-    q->data[q->rear] = msg;
-    q->rear = (q->rear + 1) % QUEUE_SIZE;
-    q->count++;
-    return true;
-}
+// -------------------------- 全局状态与结构体定义 --------------------------
+// 1. 系统总激活状态（fadonji激活后才能操作其他功能）
+bool g_fadonji_active = false;
 
-bool queue_dequeue(Queue *q, CmdMsg *msg) {
-    if (q->count == 0) return false;
-    *msg = q->data[q->front];
-    q->front = (q->front + 1) % QUEUE_SIZE;
-    q->count--;
-    return true;
-}
+// 2. safesinglecontainer图片动画配置（仅声明，运行时初始化）
+typedef struct {
+    const char *name;       // 终端输入名
+    lv_obj_t **obj_ptr;     // 指向LVGL对象的指针（避免直接用未初始化对象）
+    void (*anim_func)(lv_obj_t *, int); // 动画函数
+    bool running;           // 动画运行状态
+} SafeImgAnim;
 
-/************************* 时间更新函数 *************************/
-void update_time(lv_timer_t *timer) {
+SafeImgAnim g_safe_imgs[] = {
+    {"safetybete", &ui_safetybete, safetybeteanim_Animation, false},
+    {"motor",      &ui_motor,      motoranim_Animation,      false},
+    {"hydraulic",  &ui_hydraulic,  hydraulicanim_Animation,  false},
+    {"oilbox",     &ui_oilbox,     oilboxanim_Animation,     false},
+    {"leftlight",  &ui_leftlight,  leftlightanim_Animation,  false},
+    {"rightlight", &ui_rightlight, rightlightanim_Animation, false},
+    {"taiyalow",   &ui_taiyalow,   taiyalowlight_Animation,  false},
+    {"taiyahigh",  &ui_taiyahigh,  taiyahighlight_Animation, false}
+};
+#define SAFE_IMG_CNT (sizeof(g_safe_imgs)/sizeof(SafeImgAnim))
+
+// 3. lightcontainer图片状态配置（同理，用指针）
+typedef struct {
+    const char *name;   // 终端输入名
+    lv_obj_t **obj_ptr; // 指向LVGL对象的指针
+    bool active;        // 激活状态（255=激活，100=取消）
+} LightImg;
+
+LightImg g_light_imgs[] = {
+    {"closelight", &ui_closelight, false},
+    {"farlight",   &ui_farlight,   false}
+};
+#define LIGHT_IMG_CNT (sizeof(g_light_imgs)/sizeof(LightImg))
+
+// 4. Point图片角度动画配置（同理）
+typedef struct {
+    const char *name;       // 终端输入名
+    lv_obj_t **obj_ptr;     // 指向LVGL对象的指针
+    int min_angle;          // 最小角度阈值
+    int max_angle;          // 最大角度阈值
+    int current_angle;      // 当前角度
+    bool running;           // 动画运行状态
+} PointImg;
+
+PointImg g_point_imgs[] = {
+    {"speedpoint",  &ui_speedpoint,  0,    2300, 0, false}, // 初始角度将在init中读取
+    {"oilpoint",    &ui_oilpoint,  -1000,  0,    0, false},
+    {"powerpoint",  &ui_powerpoint, -820, 1500, 0, false}
+};
+#define POINT_IMG_CNT (sizeof(g_point_imgs)/sizeof(PointImg))
+
+// 5. 面板标签配置（同理）
+typedef struct {
+    const char *name;   // 终端输入名
+    lv_obj_t **label_ptr;// 指向标签对象的指针
+} PanelLabel;
+
+PanelLabel g_panel_labels[] = {
+    {"lichengnum",  &ui_lichengnum},
+    {"wendunum",    &ui_wendunum},
+    {"oilwendunum", &ui_oilwendunum}
+};
+#define PANEL_LABEL_CNT (sizeof(g_panel_labels)/sizeof(PanelLabel))
+
+// 6. Screen2图片状态配置（同理）
+typedef struct {
+    const char *name;   // 终端输入名
+    lv_obj_t **obj_ptr; // 指向LVGL对象的指针
+    bool active;        // 激活状态（255=激活，初始0/10=取消）
+} Screen2Img;
+
+Screen2Img g_screen2_imgs[] = {
+    {"youqianfang",  &ui_youqianfang,  false},
+    {"zuoqianfang",  &ui_zuoqianfang,  false},
+    {"zuohoufang",   &ui_zuohoufang,   false},
+    {"youhoufang",   &ui_youhoufang,   false},
+    {"youshangld",   &ui_youshangld,   false},
+    {"youxiald",     &ui_youxiald,     false},
+    {"zuoxiald",     &ui_zuoxiald,     false},
+    {"zuoshangld",   &ui_zuoshangld,   false}
+};
+#define SCREEN2_IMG_CNT (sizeof(g_screen2_imgs)/sizeof(Screen2Img))
+
+// 命令类型与消息结构体（不变）
+typedef enum {
+    CMD_FADONJI,        // 激活/取消fadonji
+    CMD_SAFE_IMG,       // 控制safesinglecontainer动画
+    CMD_LIGHT_IMG,      // 控制lightcontainer状态
+    CMD_POINT_IMG,      // 控制point角度动画
+    CMD_PANEL_LABEL,    // 设置面板标签值
+    CMD_SPORT_MODE,     // 跳转Screen2
+    CMD_LEIDA_MODE,     // 跳转Screen1
+    CMD_SCREEN2_IMG     // 控制Screen2图片状态
+} CmdType;
+
+typedef struct {
+    CmdType type;
+    union {
+        int idx; // 数组索引（SAFE/LIGHT/SCREEN2_IMG）
+        struct {
+            int idx;
+            int target_angle;
+            bool stop;
+        } point;
+        struct {
+            int idx;
+            char value[64];
+        } panel;
+    } data;
+} CmdMsg;
+
+// -------------------------- 数字命令映射表 --------------------------
+// 数字 -> 功能：用户输入数字即可触发对应操作
+typedef enum {
+    NUM_CMD_FADONJI = 1,        // 1: 激活/取消发动机（原fadonji）
+    NUM_CMD_SAFETY_BETE = 2,    // 2: 安全带动画（原safetybete）
+    NUM_CMD_MOTOR = 3,          // 3: 电机动画（原motor）
+    NUM_CMD_HYDRAULIC = 4,      // 4: 液压动画（原hydraulic）
+    NUM_CMD_OIL_BOX = 5,        // 5: 油箱动画（原oilbox）
+    NUM_CMD_LEFT_LIGHT = 6,     // 6: 左灯动画（原leftlight）
+    NUM_CMD_RIGHT_LIGHT = 7,    // 7: 右灯动画（原rightlight）
+    NUM_CMD_TAIYA_LOW = 8,      // 8: 近光灯动画（原taiyalow）
+    NUM_CMD_TAIYA_HIGH = 9,     // 9: 远光灯动画（原taiyahigh）
+    NUM_CMD_CLOSE_LIGHT = 10,   // 10: 关闭灯光（原closelight）
+    NUM_CMD_FAR_LIGHT = 11,     // 11: 开启远光（原farlight）
+    NUM_CMD_SPEED_POINT = 12,   // 12: 速度指针（原speedpoint，需加角度参数）
+    NUM_CMD_OIL_POINT = 13,     // 13: 油量指针（原oilpoint，需加角度参数）
+    NUM_CMD_POWER_POINT = 14,   // 14: 电量指针（原powerpoint，需加角度参数）
+    NUM_CMD_LICHENG_NUM = 15,   // 15: 里程数（原lichengnum，需加数值参数）
+    NUM_CMD_WENDU_NUM = 16,     // 16: 温度值（原wendunum，需加数值参数）
+    NUM_CMD_OIL_WENDU_NUM = 17, // 17: 油温值（原oilwendunum，需加数值参数）
+    NUM_CMD_SPORT_MODE = 18,    // 18: 切换到Screen2（原sportmodechange）
+    NUM_CMD_LEIDA_MODE = 19,    // 19: 切换到Screen1（原leidamodechange）
+    NUM_CMD_YOUQIANFANG = 20,   // 20: 右前方雷达（原youqianfang）
+    NUM_CMD_ZUOQIANFANG = 21,   // 21: 左前方雷达（原zuoqianfang）
+    NUM_CMD_ZUOHOUFANG = 22,    // 22: 左后方雷达（原zuohoufang）
+    NUM_CMD_YOUHOUFANG = 23,    // 23: 右后方雷达（原youhoufang）
+    NUM_CMD_YOUSHANG_LD = 24,   // 24: 右上雷达（原youshangld）
+    NUM_CMD_YOUXIA_LD = 25,     // 25: 右下雷达（原youxiald）
+    NUM_CMD_ZUOXAIA_LD = 26,    // 26: 左下雷达（原zuoxiald）
+    NUM_CMD_ZUOSHANG_LD = 27    // 27: 左上雷达（原zuoshangld）
+} NumCmd;
+
+// -------------------------- 核心功能函数 --------------------------
+// 1. 更新时间标签（1秒刷新一次，格式：YYYY-MM-DD HH:MM:SS）
+void update_time_label(lv_timer_t *timer) {
+    (void)timer;
     time_t now = time(NULL);
     struct tm *local_tm = localtime(&now);
     if (!local_tm) return;
-
-    char time_buf[20];
-    strftime(time_buf, sizeof(time_buf), "%H:%M:%S", local_tm); // 格式：HH:MM:SS
+    char time_buf[32];
+    strftime(time_buf, sizeof(time_buf), "%Y-%m-%d %H:%M:%S", local_tm);
     lv_label_set_text(ui_timelabel, time_buf);
 }
 
-/************************* 命令处理函数 *************************/
-void process_cmd_queue(lv_timer_t *timer) {
-    CmdMsg msg;
-    while (queue_dequeue(&cmd_queue, &msg)) {
-        switch (msg.type) {
-            /********** 需求1：安全容器控件动画（启停）**********/
-            case CMD_SAFE_ANIM: {
-                lv_obj_t *obj = NULL;
-                // 映射控件名到实际对象
-                if      (strcmp(msg.name, "safetybete") == 0) obj = ui_safetybete;
-                else if (strcmp(msg.name, "motor")      == 0) obj = ui_motor;
-                else if (strcmp(msg.name, "hydraulic")  == 0) obj = ui_hydraulic;
-                else if (strcmp(msg.name, "oilbox")     == 0) obj = ui_oilbox;
-                else if (strcmp(msg.name, "leftlight")  == 0) obj = ui_leftlight;
-                else if (strcmp(msg.name, "rightlight") == 0) obj = ui_rightlight;
-                else if (strcmp(msg.name, "taiyalow")   == 0) obj = ui_taiyalow;
-                else if (strcmp(msg.name, "taiyahigh")  == 0) obj = ui_taiyahigh;
-                if (!obj) break;
-
-                // 读取/初始化控件状态（1=动画运行，0=停止）
-                int *anim_running = (int *)lv_obj_get_user_data(obj);
-                if (!anim_running) {
-                    anim_running = lv_mem_alloc(sizeof(int));
-                    *anim_running = 0;
-                    lv_obj_set_user_data(obj, anim_running);
-                }
-
-                if (*anim_running == 0) { // 启动动画
-                    if      (strcmp(msg.name, "safetybete") == 0) safetybeteanim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "motor")      == 0) motoranim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "hydraulic")  == 0) hydraulicanim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "oilbox")     == 0) oilboxanim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "leftlight")  == 0) leftlightanim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "rightlight") == 0) rightlightanim_Animation(obj, 0);
-                    else if (strcmp(msg.name, "taiyalow")   == 0) taiyalowlight_Animation(obj, 0);
-                    else if (strcmp(msg.name, "taiyahigh")  == 0) taiyahighlight_Animation(obj, 0);
-                    *anim_running = 1;
-                    printf("[INFO] %s 动画已启动\n", msg.name);
-                } else { // 停止动画
-                    lv_anim_del(obj, NULL); // 删除所有绑定动画
-                    lv_obj_set_style_opa(obj, 100, LV_PART_MAIN); // 恢复初始透明度
-                    *anim_running = 0;
-                    printf("[INFO] %s 动画已停止\n", msg.name);
-                }
-                break;
-            }
-
-            /********** 需求2：灯光控件状态切换 **********/
-            case CMD_LIGHT_TOGGLE: {
-                lv_obj_t *obj = NULL;
-                if (strcmp(msg.name, "closelight") == 0) obj = ui_closelight;
-                else if (strcmp(msg.name, "farlight") == 0) obj = ui_farlight;
-                if (!obj) break;
-
-                // 读取/初始化状态（1=激活，0=未激活）
-                int *activated = (int *)lv_obj_get_user_data(obj);
-                if (!activated) {
-                    activated = lv_mem_alloc(sizeof(int));
-                    *activated = 0;
-                    lv_obj_set_user_data(obj, activated);
-                }
-
-                if (*activated == 0) { // 激活（设为255透明度）
-                    lv_obj_set_style_opa(obj, 255, LV_PART_MAIN);
-                    *activated = 1;
-                    printf("[INFO] %s 已激活\n", msg.name);
-                } else { // 取消激活（恢复100透明度）
-                    lv_obj_set_style_opa(obj, 100, LV_PART_MAIN);
-                    *activated = 0;
-                    printf("[INFO] %s 已取消激活\n", msg.name);
-                }
-                break;
-            }
-
-            /********** 需求3/6：屏幕切换 **********/
-            case CMD_SCREEN_SPORT:
-                _ui_screen_change(&ui_Screen2, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_Screen2_screen_init);
-                printf("[INFO] 已切换到 雷达屏幕（Screen2）\n");
-                break;
-            case CMD_SCREEN_LEIDA:
-                _ui_screen_change(&ui_Screen1, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_Screen1_screen_init);
-                printf("[INFO] 已切换到 仪表盘屏幕（Screen1）\n");
-                break;
-
-            /********** 需求4：里程/温度标签更新 **********/
-            case CMD_UPDATE_LABEL: {
-                lv_obj_t *obj = NULL;
-                if (strcmp(msg.name, "lichengnum") == 0) obj = ui_lichengnum;
-                else if (strcmp(msg.name, "wendunum") == 0) obj = ui_wendunum;
-                if (!obj) break;
-
-                char buf[32];
-                snprintf(buf, sizeof(buf), "%d", msg.value);
-                lv_label_set_text(obj, buf);
-                printf("[INFO] %s 已更新为：%d\n", msg.name, msg.value);
-                break;
-            }
-
-            /********** 需求5：指针角度控制 **********/
-            case CMD_POINT_ROTATE: {
-                lv_obj_t *obj = NULL;
-                if      (strcmp(msg.name, "speedpoint") == 0) obj = ui_speedpoint;
-                else if (strcmp(msg.name, "oilpoint")   == 0) obj = ui_oilpoint;
-                else if (strcmp(msg.name, "powerpoint") == 0) obj = ui_powerpoint;
-                if (!obj) break;
-
-                // 读取当前角度，创建动态角度动画
-                int current_angle = lv_img_get_angle(obj);
-                ui_anim_user_data_t *anim_data = lv_mem_alloc(sizeof(ui_anim_user_data_t));
-                anim_data->target = obj;
-                anim_data->val = -1;
-
-                lv_anim_t a;
-                lv_anim_init(&a);
-                lv_anim_set_time(&a, 1000); // 1秒转动过渡
-                lv_anim_set_user_data(&a, anim_data);
-                lv_anim_set_custom_exec_cb(&a, _ui_anim_callback_set_image_angle);
-                lv_anim_set_values(&a, current_angle, msg.value); // 从当前到目标角度
-                lv_anim_set_path_cb(&a, lv_anim_path_linear);
-                lv_anim_set_deleted_cb(&a, _ui_anim_callback_free_user_data);
-                lv_anim_set_repeat_count(&a, 0); // 仅执行一次
-                lv_anim_set_get_value_cb(&a, &_ui_anim_callback_get_image_angle);
-                lv_anim_start(&a);
-
-                printf("[INFO] %s 已转动到 %d°（原角度：%d°）\n", msg.name, msg.value, current_angle);
-                break;
-            }
-
-            /********** 需求6：雷达容器动画 **********/
-            case CMD_LEIDA_ANIM: {
-                lv_obj_t *obj = NULL;
-                if      (strcmp(msg.name, "youqianfang")  == 0) obj = ui_youqianfang;
-                else if (strcmp(msg.name, "zuoqianfang")  == 0) obj = ui_zuoqianfang;
-                else if (strcmp(msg.name, "zuohoufang")   == 0) obj = ui_zuohoufang;
-                else if (strcmp(msg.name, "youhoufang")   == 0) obj = ui_youhoufang;
-                if (!obj) break;
-
-                // 读取/初始化状态（1=动画运行，0=停止）
-                int *anim_running = (int *)lv_obj_get_user_data(obj);
-                if (!anim_running) {
-                    anim_running = lv_mem_alloc(sizeof(int));
-                    *anim_running = 0;
-                    lv_obj_set_user_data(obj, anim_running);
-                }
-
-                if (*anim_running == 0) { // 启动动画（10→255透明度循环）
-                    ui_anim_user_data_t *anim_data = lv_mem_alloc(sizeof(ui_anim_user_data_t));
-                    anim_data->target = obj;
-                    anim_data->val = -1;
-
-                    lv_anim_t a;
-                    lv_anim_init(&a);
-                    lv_anim_set_time(&a, 1000);
-                    lv_anim_set_user_data(&a, anim_data);
-                    lv_anim_set_custom_exec_cb(&a, _ui_anim_callback_set_opacity);
-                    lv_anim_set_values(&a, 10, 255);
-                    lv_anim_set_path_cb(&a, lv_anim_path_linear);
-                    lv_anim_set_deleted_cb(&a, _ui_anim_callback_free_user_data);
-                    lv_anim_set_repeat_count(&a, LV_ANIM_REPEAT_INFINITE);
-                    lv_anim_set_get_value_cb(&a, &_ui_anim_callback_get_opacity);
-                    lv_anim_start(&a);
-
-                    *anim_running = 1;
-                    printf("[INFO] 雷达 %s 动画已启动\n", msg.name);
-                } else { // 停止动画
-                    lv_anim_del(obj, NULL);
-                    lv_obj_set_style_opa(obj, 10, LV_PART_MAIN); // 恢复初始透明度
-                    *anim_running = 0;
-                    printf("[INFO] 雷达 %s 动画已停止\n", msg.name);
-                }
-                break;
-            }
-
-            default:
-                printf("[ERROR] 未知命令：%d\n", msg.type);
-                break;
-        }
+// 新增动画执行回调函数（适配LVGL 8的回调类型）
+static void anim_exec_angle(lv_anim_t *a, int32_t value) {
+    PointImg *p = (PointImg *)lv_anim_get_user_data(a);
+    if (p && p->obj_ptr && *p->obj_ptr) {
+        lv_img_set_angle(*p->obj_ptr, value);
     }
 }
 
-/************************* 终端输入线程 *************************/
-void *terminal_input_thread(void *arg) {
-    char input[64];
-    printf("===================== LVGL 终端控制 =====================\n");
-    printf("可用命令说明：\n");
-    printf("1. 安全容器动画（启停）：safetybete/motor/hydraulic/oilbox/leftlight/rightlight/taiyalow/taiyahigh\n");
-    printf("2. 灯光控制（激活/取消）：closelight/farlight\n");
-    printf("3. 屏幕切换：sportmodechange（→雷达屏）、leidamodechange（→仪表盘）\n");
-    printf("4. 标签更新：lichengnum <值>（里程）、wendunum <值>（温度）\n");
-    printf("5. 指针控制：speedpoint <角度>、oilpoint <角度>、powerpoint <角度>\n");
-    printf("6. 雷达动画（启停）：youqianfang/zuoqianfang/zuohoufang/youhoufang\n");
-    printf("==========================================================\n");
+// 角度动画完成回调
+void point_anim_ready_cb(lv_anim_t *a) {
+    PointImg *p = (PointImg *)lv_anim_get_user_data(a);
+    if (p && p->obj_ptr && *p->obj_ptr) {
+        p->current_angle = lv_img_get_angle(*p->obj_ptr);  // 从对象获取当前角度
+        p->running = false;
+        printf("[动画] %s 角度调整完成，当前角度：%d\n", p->name, p->current_angle);
+    }
+}
 
+// 处理命令的函数（修正参数类型和结构体访问）
+void process_cmd(void *arg) {
+    CmdMsg *msg = (CmdMsg *)arg;
+    if (!msg) return;
+
+    // 验证系统激活状态（仅fadonji命令无需激活）
+    if (msg->type != CMD_FADONJI && !g_fadonji_active) {
+        printf("[提示] 请先输入\"fadonji\"激活系统！\n");
+        lv_mem_free(msg);
+        return;
+    }
+
+    switch (msg->type) {
+        // 1. 处理fadonji激活/取消
+        case CMD_FADONJI:
+            g_fadonji_active = !g_fadonji_active;
+            if (ui_fadonji) {
+                lv_obj_set_style_opa(ui_fadonji, g_fadonji_active ? 255 : 100, LV_PART_MAIN);
+            }
+            printf("[状态] fadonji %s\n", g_fadonji_active ? "已激活" : "已取消");
+            break;
+
+        // 2. 处理safesinglecontainer图片动画（修正：精准删除动画）
+        case CMD_SAFE_IMG: {
+            SafeImgAnim *img = &g_safe_imgs[msg->data.idx];
+            // 空指针检查
+            if (!img->obj_ptr || !*img->obj_ptr) {
+                printf("[错误] %s 对象未初始化或为空！\n", img->name);
+                lv_mem_free(msg);
+                return;
+            }
+
+            img->running = !img->running;
+            if (img->running) {
+                // 启动闪烁动画
+                img->anim_func(*img->obj_ptr, 0);
+                printf("[动画] %s 已启动\n", img->name);
+            } else {
+                // 精准删除SquareLine生成的透明度动画（关键修正）
+                lv_anim_del(*img->obj_ptr, _ui_anim_callback_set_opacity);
+                lv_obj_set_style_opa(*img->obj_ptr, 100, LV_PART_MAIN);
+                img->running = false;  // 强制重置状态
+                printf("[动画] %s 已停止\n", img->name);
+            }
+            break;
+        }
+
+        // 3. 处理lightcontainer图片状态
+        case CMD_LIGHT_IMG: {
+            LightImg *img = &g_light_imgs[msg->data.idx];
+            if (!img->obj_ptr || !*img->obj_ptr) {
+                printf("[错误] %s 对象未初始化或为空！\n", img->name);
+                lv_mem_free(msg);
+                return;
+            }
+
+            img->active = !img->active;
+            lv_obj_set_style_opa(*img->obj_ptr, img->active ? 255 : 100, LV_PART_MAIN);
+            printf("[状态] %s %s\n", img->name, img->active ? "已激活" : "已取消");
+            break;
+        }
+
+        // 4. 处理point图片角度动画（修正：空指针检查+动画逻辑）
+        case CMD_POINT_IMG: {
+            PointImg *img = &g_point_imgs[msg->data.point.idx];
+            // 双重空指针检查（核心修正，解决段错误）
+            if (!img->obj_ptr || !*img->obj_ptr) {
+                printf("[错误] %s 对象未初始化或为空！\n", img->name);
+                lv_mem_free(msg);
+                return;
+            }
+
+            if (msg->data.point.stop) {
+                // 停止动画
+                if (img->running) {
+                    lv_anim_del(*img->obj_ptr, anim_exec_angle);
+                    img->running = false;
+                    img->current_angle = lv_img_get_angle(*img->obj_ptr);
+                    printf("[动画] %s 已停止，当前角度：%d\n", img->name, img->current_angle);
+                } else {
+                    printf("[提示] %s 动画未运行\n", img->name);
+                }
+            } else {
+                
+
+                int input_target = msg->data.point.target_angle;
+                input_target = LV_MAX(input_target, img->min_angle);
+                input_target = LV_MAX(input_target, img->min_angle);
+                input_target = LV_MIN(input_target, img->max_angle);
+
+                // 2. 反向映射：将原始目标角度转换为“反向转动”的目标角度
+                // 公式：反向角度 = 最小值 + 最大值 - 原始目标角度（对称反转）
+                int target = img->min_angle + img->max_angle - input_target;
+
+                // 3. 二次限制（避免极端情况超出阈值，可选但建议保留）
+                target = LV_MAX(target, img->min_angle);
+                target = LV_MIN(target, img->max_angle);
+
+                if (target == img->current_angle) {
+                    printf("[提示] %s 当前角度已为 %d\n", img->name, target);
+                    lv_mem_free(msg);
+                    return;
+                }
+
+                // 启动角度调整动画
+                if (img->running) lv_anim_del(*img->obj_ptr, anim_exec_angle);
+                
+                lv_anim_t anim;
+                lv_anim_init(&anim);
+                lv_anim_set_time(&anim, 2000);  // 动画时长2秒
+                lv_anim_set_custom_exec_cb(&anim, anim_exec_angle);
+                lv_anim_set_values(&anim, img->current_angle, target);
+                lv_anim_set_path_cb(&anim, lv_anim_path_linear);
+                lv_anim_set_user_data(&anim, img);  // 传递PointImg结构体
+                lv_anim_set_ready_cb(&anim, (lv_anim_ready_cb_t)point_anim_ready_cb);
+                lv_anim_start(&anim);
+                
+                img->running = true;
+                printf("[动画] %s 开始调整角度至：%d（阈值：%d~%d）\n", 
+                       img->name, target, img->min_angle, img->max_angle);
+            }
+            break;
+        }
+
+        // 5. 处理面板标签值设置（修正：oilwendu标签显示）
+        case CMD_PANEL_LABEL: {
+            PanelLabel *label = &g_panel_labels[msg->data.panel.idx];
+            if (!label->label_ptr || !*label->label_ptr) {
+                printf("[错误] %s 标签对象未初始化或为空！\n", label->name);
+                lv_mem_free(msg);
+                return;
+            }
+
+            // 强制设置标签透明度（解决父对象opa=0的问题）
+            lv_label_set_text(*label->label_ptr, msg->data.panel.value);
+            lv_obj_set_style_opa(*label->label_ptr, 255, LV_PART_MAIN);
+            // 可选：修复父对象透明度（若需要）
+            if (label->label_ptr == &ui_oilwendunum && ui_oilwendu) {
+                lv_obj_set_style_opa(ui_oilwendu, 255, LV_PART_MAIN);
+            }
+            printf("[显示] %s 已设置为：%s\n", label->name, msg->data.panel.value);
+            break;
+        }
+
+        // 6. 处理屏幕跳转
+        case CMD_SPORT_MODE:
+            _ui_screen_change(&ui_Screen2, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_Screen2_screen_init);
+            printf("[跳转] 已切换至 Screen2\n");
+            break;
+
+        case CMD_LEIDA_MODE:
+            _ui_screen_change(&ui_Screen1, LV_SCR_LOAD_ANIM_FADE_ON, 500, 0, &ui_Screen1_screen_init);
+            printf("[跳转] 已切换至 Screen1\n");
+            break;
+
+        // 7. 处理Screen2图片状态
+        case CMD_SCREEN2_IMG: {
+            Screen2Img *img = &g_screen2_imgs[msg->data.idx];
+            if (!img->obj_ptr || !*img->obj_ptr) {
+                printf("[错误] %s 对象未初始化或为空！\n", img->name);
+                lv_mem_free(msg);
+                return;
+            }
+
+            img->active = !img->active;
+            // 恢复初始透明度（zuohoufang初始10，其他0）
+            uint8_t inactive_opa = (strcmp(img->name, "zuohoufang") == 0) ? 10 : 0;
+            lv_obj_set_style_opa(*img->obj_ptr, img->active ? 255 : inactive_opa, LV_PART_MAIN);
+            printf("[状态] %s %s\n", img->name, img->active ? "已激活" : "已取消");
+            break;
+        }
+
+        default:
+            printf("[错误] 未知命令！\n");
+            break;
+    }
+    lv_mem_free(msg);  // 释放命令内存
+}
+
+// 输入线程函数（修改：数字命令解析）
+void *input_thread(void *arg) {
+    (void)arg;
+    char input_buf[128];
+    // 打印数字命令操作说明（替换原英文说明）
+    printf("==================== 仪表盘控制终端（数字命令版） ====================\n");
+    printf("操作说明：输入数字+可选参数，按回车执行\n");
+    printf("1. 系统控制：\n");
+    printf("   1 → 激活/取消发动机（必须先激活才能操作其他功能）\n");
+    printf("   18 → 切换到雷达屏幕（Screen2）\n");
+    printf("   19 → 切换回主屏幕（Screen1）\n");
+    printf("\n2. 动画控制（输入数字即可启动/停止）：\n");
+    printf("   2→安全带  3→电机  4→液压  5→油箱  6→左灯  7→右灯  8→近光  9→远光\n");
+    printf("\n3. 灯光控制（输入数字即可激活/取消）：\n");
+    printf("   10→关闭灯光  11→开启远光\n");
+    printf("\n4. 指针调整（格式：数字 角度，输入数字不加参数停止）：\n");
+    printf("   12 角度 → 速度指针（角度范围：0~2300）\n");
+    printf("   13 角度 → 油量指针（角度范围：-1000~0）\n");
+    printf("   14 角度 → 电量指针（角度范围：-820~1500）\n");
+    printf("\n5. 数值显示（格式：数字 值，如 15 500km）：\n");
+    printf("   15 值 → 里程数（如 15 800km）\n");
+    printf("   16 值 → 温度（如 16 38℃）\n");
+    printf("   17 值 → 油温（如 17 85℃）\n");
+    printf("\n6. 雷达控制（输入数字即可激活/取消，仅雷达屏幕生效）：\n");
+    printf("   20→右前方  21→左前方  22→左后方  23→右后方\n");
+    printf("   24→右上  25→右下  26→左下  27→左上\n");
+    printf("=====================================================================\n");
+    
     while (1) {
-        printf("\n请输入命令：");
-        if (fgets(input, sizeof(input), stdin) == NULL) continue;
-        input[strcspn(input, "\n")] = '\0'; // 去除换行符
-        if (strlen(input) == 0) continue;
+        printf("\n请输入数字命令：");
+        if (fgets(input_buf, sizeof(input_buf), stdin) == NULL) continue;
+        input_buf[strcspn(input_buf, "\n")] = '\0'; // 去除换行符
+        if (strlen(input_buf) == 0) continue;
 
-        CmdMsg msg = {0};
-        char *cmd = strtok(input, " ");      // 拆分命令（第一部分为控件名）
-        char *val_str = strtok(NULL, " ");   // 拆分值（如角度/标签值）
+        // 拆分“数字命令”与“可选参数”（如“12 1500”拆分为 cmd_num=12，param=1500）
+        char *num_str = strtok(input_buf, " ");
+        char *param = strtok(NULL, " ");
 
-        /********** 命令分类判断 **********/
-        // 1. 安全容器动画（无值）
-        const char *safe_objs[] = {"safetybete", "motor", "hydraulic", "oilbox", "leftlight", "rightlight", "taiyalow", "taiyahigh", NULL};
-        for (int i=0; safe_objs[i]; i++) {
-            if (strcmp(cmd, safe_objs[i]) == 0) {
-                msg.type = CMD_SAFE_ANIM;
-                strncpy(msg.name, cmd, sizeof(msg.name)-1);
-                goto enqueue;
-            }
+        // 第一步：将输入的字符串数字转为整数（判断是否为有效数字）
+        char *endptr;
+        int cmd_num = strtol(num_str, &endptr, 10);
+        if (*endptr != '\0') { // 输入不是纯数字
+            printf("[错误] 请输入有效数字！参考操作说明\n");
+            continue;
         }
 
-        // 2. 灯光控制（无值）
-        if (strcmp(cmd, "closelight") == 0 || strcmp(cmd, "farlight") == 0) {
-            msg.type = CMD_LIGHT_TOGGLE;
-            strncpy(msg.name, cmd, sizeof(msg.name)-1);
-            goto enqueue;
+        // 第二步：分配命令消息（LVGL内存分配，线程安全）
+        CmdMsg *msg = (CmdMsg *)lv_mem_alloc(sizeof(CmdMsg));
+        if (!msg) {
+            printf("[错误] 内存分配失败！\n");
+            continue;
         }
+        memset(msg, 0, sizeof(CmdMsg));
 
-        // 3. 屏幕切换（无值）
-        if (strcmp(cmd, "sportmodechange") == 0) {
-            msg.type = CMD_SCREEN_SPORT;
-            goto enqueue;
-        }
-        if (strcmp(cmd, "leidamodechange") == 0) {
-            msg.type = CMD_SCREEN_LEIDA;
-            goto enqueue;
-        }
+        // 第三步：数字命令映射到对应功能（核心逻辑）
+        bool cmd_valid = true;
+        switch (cmd_num) {
+            // 1. 系统控制
+            case NUM_CMD_FADONJI:
+                msg->type = CMD_FADONJI;
+                break;
+            case NUM_CMD_SPORT_MODE:
+                msg->type = CMD_SPORT_MODE;
+                break;
+            case NUM_CMD_LEIDA_MODE:
+                msg->type = CMD_LEIDA_MODE;
+                break;
 
-        // 4. 雷达动画（无值）
-        const char *leida_objs[] = {"youqianfang", "zuoqianfang", "zuohoufang", "youhoufang", NULL};
-        for (int i=0; leida_objs[i]; i++) {
-            if (strcmp(cmd, leida_objs[i]) == 0) {
-                msg.type = CMD_LEIDA_ANIM;
-                strncpy(msg.name, cmd, sizeof(msg.name)-1);
-                goto enqueue;
-            }
-        }
+            // 2. safesinglecontainer动画控制（对应原英文命令的动画功能）
+            case NUM_CMD_SAFETY_BETE:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 0; // 对应g_safe_imgs[0]（safetybete）
+                break;
+            case NUM_CMD_MOTOR:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 1; // g_safe_imgs[1]（motor）
+                break;
+            case NUM_CMD_HYDRAULIC:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 2; // g_safe_imgs[2]（hydraulic）
+                break;
+            case NUM_CMD_OIL_BOX:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 3; // g_safe_imgs[3]（oilbox）
+                break;
+            case NUM_CMD_LEFT_LIGHT:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 4; // g_safe_imgs[4]（leftlight）
+                break;
+            case NUM_CMD_RIGHT_LIGHT:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 5; // g_safe_imgs[5]（rightlight）
+                break;
+            case NUM_CMD_TAIYA_LOW:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 6; // g_safe_imgs[6]（taiyalow）
+                break;
+            case NUM_CMD_TAIYA_HIGH:
+                msg->type = CMD_SAFE_IMG;
+                msg->data.idx = 7; // g_safe_imgs[7]（taiyahigh）
+                break;
 
-        // 5. 指针控制（需值）
-        const char *point_objs[] = {"speedpoint", "oilpoint", "powerpoint", NULL};
-        for (int i=0; point_objs[i]; i++) {
-            if (strcmp(cmd, point_objs[i]) == 0) {
-                if (!val_str) {
-                    printf("[ERROR] %s 需输入角度值（如：%s 900）\n", cmd, cmd);
-                    goto next_cmd;
+            // 3. lightcontainer灯光控制
+            case NUM_CMD_CLOSE_LIGHT:
+                msg->type = CMD_LIGHT_IMG;
+                msg->data.idx = 0; // g_light_imgs[0]（closelight）
+                break;
+            case NUM_CMD_FAR_LIGHT:
+                msg->type = CMD_LIGHT_IMG;
+                msg->data.idx = 1; // g_light_imgs[1]（farlight）
+                break;
+
+            // 4. Screen2雷达控制
+            case NUM_CMD_YOUQIANFANG:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 0; // g_screen2_imgs[0]（youqianfang）
+                break;
+            case NUM_CMD_ZUOQIANFANG:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 1; // g_screen2_imgs[1]（zuoqianfang）
+                break;
+            case NUM_CMD_ZUOHOUFANG:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 2; // g_screen2_imgs[2]（zuohoufang）
+                break;
+            case NUM_CMD_YOUHOUFANG:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 3; // g_screen2_imgs[3]（youhoufang）
+                break;
+            case NUM_CMD_YOUSHANG_LD:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 4; // g_screen2_imgs[4]（youshangld）
+                break;
+            case NUM_CMD_YOUXIA_LD:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 5; // g_screen2_imgs[5]（youxiald）
+                break;
+            case NUM_CMD_ZUOXAIA_LD:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 6; // g_screen2_imgs[6]（zuoxiald）
+                break;
+            case NUM_CMD_ZUOSHANG_LD:
+                msg->type = CMD_SCREEN2_IMG;
+                msg->data.idx = 7; // g_screen2_imgs[7]（zuoshangld）
+                break;
+
+            // 5. 指针角度控制（需参数：角度；无参数则停止）
+            case NUM_CMD_SPEED_POINT:
+                msg->type = CMD_POINT_IMG;
+                msg->data.point.idx = 0; // g_point_imgs[0]（speedpoint）
+                if (!param) {
+                    msg->data.point.stop = true; // 无参数=停止动画
+                } else {
+                    // 解析角度参数（必须为整数）
+                    int target = strtol(param, &endptr, 10);
+                    if (*endptr != '\0') {
+                        printf("[错误] 指针命令需输入整数角度！如 12 1500\n");
+                        lv_mem_free(msg);
+                        cmd_valid = false;
+                    } else {
+                        msg->data.point.stop = false;
+                        msg->data.point.target_angle = target;
+                    }
                 }
-                msg.type = CMD_POINT_ROTATE;
-                strncpy(msg.name, cmd, sizeof(msg.name)-1);
-                msg.value = atoi(val_str);
-                goto enqueue;
-            }
-        }
-
-        // 6. 标签更新（需值）
-        const char *label_objs[] = {"lichengnum", "wendunum", NULL};
-        for (int i=0; label_objs[i]; i++) {
-            if (strcmp(cmd, label_objs[i]) == 0) {
-                if (!val_str) {
-                    printf("[ERROR] %s 需输入数值（如：%s 123）\n", cmd, cmd);
-                    goto next_cmd;
+                break;
+            case NUM_CMD_OIL_POINT:
+                msg->type = CMD_POINT_IMG;
+                msg->data.point.idx = 1; // g_point_imgs[1]（oilpoint）
+                if (!param) {
+                    msg->data.point.stop = true;
+                } else {
+                    int target = strtol(param, &endptr, 10);
+                    if (*endptr != '\0') {
+                        printf("[错误] 指针命令需输入整数角度！如 13 -500\n");
+                        lv_mem_free(msg);
+                        cmd_valid = false;
+                    } else {
+                        msg->data.point.stop = false;
+                        msg->data.point.target_angle = target;
+                    }
                 }
-                msg.type = CMD_UPDATE_LABEL;
-                strncpy(msg.name, cmd, sizeof(msg.name)-1);
-                msg.value = atoi(val_str);
-                goto enqueue;
+                break;
+            case NUM_CMD_POWER_POINT:
+                msg->type = CMD_POINT_IMG;
+                msg->data.point.idx = 2; // g_point_imgs[2]（powerpoint）
+                if (!param) {
+                    msg->data.point.stop = true;
+                } else {
+                    int target = strtol(param, &endptr, 10);
+                    if (*endptr != '\0') {
+                        printf("[错误] 指针命令需输入整数角度！如 14 1000\n");
+                        lv_mem_free(msg);
+                        cmd_valid = false;
+                    } else {
+                        msg->data.point.stop = false;
+                        msg->data.point.target_angle = target;
+                    }
+                }
+                break;
+
+            // 6. 面板标签数值设置（需参数：显示值）
+            case NUM_CMD_LICHENG_NUM:
+                msg->type = CMD_PANEL_LABEL;
+                msg->data.panel.idx = 0; // g_panel_labels[0]（lichengnum）
+                if (!param) {
+                    printf("[错误] 里程命令需输入值！如 15 800km\n");
+                    lv_mem_free(msg);
+                    cmd_valid = false;
+                } else {
+                    strncpy(msg->data.panel.value, param, sizeof(msg->data.panel.value)-1);
+                }
+                break;
+            case NUM_CMD_WENDU_NUM:
+                msg->type = CMD_PANEL_LABEL;
+                msg->data.panel.idx = 1; // g_panel_labels[1]（wendunum）
+                if (!param) {
+                    printf("[错误] 温度命令需输入值！如 16 38℃\n");
+                    lv_mem_free(msg);
+                    cmd_valid = false;
+                } else {
+                    strncpy(msg->data.panel.value, param, sizeof(msg->data.panel.value)-1);
+                }
+                break;
+            case NUM_CMD_OIL_WENDU_NUM:
+                msg->type = CMD_PANEL_LABEL;
+                msg->data.panel.idx = 2; //g_panel_labels [2]（oilwendunum）
+                if (!param) {
+                    printf ("[错误] 油温命令需输入值！如 17 85℃\n");
+                    lv_mem_free (msg);
+                    cmd_valid = false;
+                } else {
+                    strncpy (msg->data.panel.value, param, sizeof (msg->data.panel.value)-1);
+                }
+                break;
+
+                // 无效数字命令
+                default:
+                printf ("[错误] 未知数字命令！请输入 1-27 之间的数字，参考操作说明 \n");
+                lv_mem_free (msg);
+                cmd_valid = false;
+                    break;
+                }
+
+                // 发送有效命令到主线程
+                if (cmd_valid) {
+                    lv_async_call (process_cmd, msg);
+                }
             }
-        }
-
-        // 未知命令
-        printf("[ERROR] 未知命令：%s\n", cmd);
-        goto next_cmd;
-
-        /********** 命令入队（加互斥锁） **********/
-    enqueue:
-        pthread_mutex_lock(&cmd_mutex);
-        if (!queue_enqueue(&cmd_queue, msg)) {
-            printf("[ERROR] 命令队列已满，无法添加命令\n");
-        }
-        pthread_mutex_unlock(&cmd_mutex);
-
-    next_cmd:
-        continue;
-    }
-    return NULL;
+                return NULL;
 }
+
+// 初始化全局数组（在ui_init()后调用，确保LVGL对象已创建）
+void init_global_arrays(void) {
+    // 初始化Point图片的当前角度（从对象读取实际值，解决初始角度错误）
+    for (int i = 0; i < POINT_IMG_CNT; i++) {
+        PointImg *p = &g_point_imgs[i];
+        if (!p->obj_ptr) {
+            printf("[警告] %s 的obj_ptr未赋值！\n", p->name);
+            continue;
+        }
+        if (!*p->obj_ptr) {
+            printf("[警告] %s 对象未创建！\n", p->name);
+            continue;
+        }
+        p->current_angle = lv_img_get_angle(*p->obj_ptr);
+        printf("[初始化] %s 初始角度: %d（阈值：%d~%d）\n", 
+               p->name, p->current_angle, p->min_angle, p->max_angle);
+    }
+
+    // 初始化fadonji初始状态（透明度100=未激活）
+    if (ui_fadonji) {
+        lv_obj_set_style_opa(ui_fadonji, 100, LV_PART_MAIN);
+        printf("[初始化] fadonji 初始状态：未激活\n");
+    }
+}
+
+// ------------------------------------------------------------------------
 
 ///////////////////// SCREENS ////////////////////
 
@@ -750,4 +1093,18 @@ void ui_init(void)
     ui_Screen2_screen_init();
     ui____initial_actions0 = lv_obj_create(NULL);
     lv_disp_load_scr(ui_Screen1);
+
+    // 初始化全局数组（必须在UI创建后调用）
+    init_global_arrays();
+
+    // 创建时间更新定时器（1秒刷新）
+    lv_timer_create(update_time_label, 1000, NULL);
+
+    // 创建终端输入线程
+    pthread_t tid;
+    if (pthread_create(&tid, NULL, input_thread, NULL) != 0) {
+        printf("[错误] 输入线程创建失败！\n");
+        return;
+    }
+    pthread_detach(tid); // 线程分离，无需join
 }

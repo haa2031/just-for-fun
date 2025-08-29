@@ -11,10 +11,6 @@
 
 #define DISP_BUF_SIZE (1024 * 1024)
 
-
-
-
-
 int main(void)
 {
     /* LVGL初始化 */
@@ -54,24 +50,9 @@ int main(void)
     // lv_img_set_src(cursor_obj, &mouse_cursor_icon);           /*Set the image source*/
     // lv_indev_set_cursor(mouse_indev, cursor_obj);             /*Connect the image  object to the driver*/
 
-    /* 初始化命令队列和互斥锁 */
-    queue_init(&cmd_queue);
-    pthread_mutex_init(&cmd_mutex, NULL);
-
-    /* 创建终端输入线程 */
-    pthread_t tid;
-    if (pthread_create(&tid, NULL, terminal_input_thread, NULL) != 0) {
-        perror("[ERROR] 创建终端线程失败");
-        return -1;
-    }
-
     ui_init();  // 初始化UI
 
-    /* 创建定时器：1秒更新时间 */
-    lv_timer_create(update_time, 1000, NULL);
-
-    /* 创建定时器：50ms处理命令队列（保证UI响应流畅） */
-    lv_timer_create(process_cmd_queue, 50, NULL);
+    
 
     /*****************************************************************************
      * 4.8 主循环（程序核心，不能退出）
@@ -82,10 +63,6 @@ int main(void)
         lv_timer_handler();
         usleep(5000);
     }
-
-     /* 资源清理（实际不会执行到） */
-    pthread_mutex_destroy(&cmd_mutex);
-    return 0;
 
     return 0;
 }

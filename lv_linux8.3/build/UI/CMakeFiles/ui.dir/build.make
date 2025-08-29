@@ -307,19 +307,19 @@ UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_314426297.c.s"
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_314426297.c -o CMakeFiles/ui.dir/images/ui_img_314426297.c.s
 
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: UI/CMakeFiles/ui.dir/flags.make
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o: UI/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o"
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o -MF CMakeFiles/ui.dir/images/ui_img_1681097765.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1681097765.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o: UI/CMakeFiles/ui.dir/flags.make
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o: UI/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o -MF CMakeFiles/ui.dir/images/ui_img_1681100838.c.o.d -o CMakeFiles/ui.dir/images/ui_img_1681100838.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c
 
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1681097765.c.i"
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c > CMakeFiles/ui.dir/images/ui_img_1681097765.c.i
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_1681100838.c.i"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c > CMakeFiles/ui.dir/images/ui_img_1681100838.c.i
 
-UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1681097765.c.s"
-	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681097765.c -o CMakeFiles/ui.dir/images/ui_img_1681097765.c.s
+UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_1681100838.c.s"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_1681100838.c -o CMakeFiles/ui.dir/images/ui_img_1681100838.c.s
 
 UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o: UI/CMakeFiles/ui.dir/flags.make
 UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_960096759.c
@@ -433,10 +433,24 @@ UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_group_14_png.c.s"
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_group_14_png.c -o CMakeFiles/ui.dir/images/ui_img_group_14_png.c.s
 
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o: UI/CMakeFiles/ui.dir/flags.make
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o: UI/CMakeFiles/ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o -MF CMakeFiles/ui.dir/images/ui_img_761631266.c.o.d -o CMakeFiles/ui.dir/images/ui_img_761631266.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c
+
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ui.dir/images/ui_img_761631266.c.i"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c > CMakeFiles/ui.dir/images/ui_img_761631266.c.i
+
+UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ui.dir/images/ui_img_761631266.c.s"
+	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_761631266.c -o CMakeFiles/ui.dir/images/ui_img_761631266.c.s
+
 UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: UI/CMakeFiles/ui.dir/flags.make
 UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_rectangle_1_png.c
 UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o: UI/CMakeFiles/ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o"
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && /usr/bin/arm-linux-gnueabihf-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o -MF CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o.d -o CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o -c /mnt/c/Users/huang/just-for-fun/lv_linux8.3/UI/images/ui_img_rectangle_1_png.c
 
 UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.i: cmake_force
@@ -466,7 +480,7 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/images/ui_img_151439093.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_vector_png.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_314426297.c.o" \
-"CMakeFiles/ui.dir/images/ui_img_1681097765.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_1681100838.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_960096759.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_960091386.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_414159209.c.o" \
@@ -475,6 +489,7 @@ ui_OBJECTS = \
 "CMakeFiles/ui.dir/images/ui_img_1033847363.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_1324262503.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o" \
+"CMakeFiles/ui.dir/images/ui_img_761631266.c.o" \
 "CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o"
 
 # External object files for target ui
@@ -497,7 +512,7 @@ UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_165777803.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_151439093.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_vector_png.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_314426297.c.o
-UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_1681097765.c.o
+UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_1681100838.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_960096759.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_960091386.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_414159209.c.o
@@ -506,10 +521,11 @@ UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_2115575519.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_1033847363.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_1324262503.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_group_14_png.c.o
+UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_761631266.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/images/ui_img_rectangle_1_png.c.o
 UI/libui.a: UI/CMakeFiles/ui.dir/build.make
 UI/libui.a: UI/CMakeFiles/ui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C static library libui.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C static library libui.a"
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && $(CMAKE_COMMAND) -P CMakeFiles/ui.dir/cmake_clean_target.cmake
 	cd /mnt/c/Users/huang/just-for-fun/lv_linux8.3/build/UI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ui.dir/link.txt --verbose=$(VERBOSE)
 

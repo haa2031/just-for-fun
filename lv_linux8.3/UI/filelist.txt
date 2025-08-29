@@ -15,7 +15,7 @@ images/ui_img_165777803.c
 images/ui_img_151439093.c
 images/ui_img_vector_png.c
 images/ui_img_314426297.c
-images/ui_img_1681097765.c
+images/ui_img_1681100838.c
 images/ui_img_960096759.c
 images/ui_img_960091386.c
 images/ui_img_414159209.c
@@ -24,4 +24,5 @@ images/ui_img_2115575519.c
 images/ui_img_1033847363.c
 images/ui_img_1324262503.c
 images/ui_img_group_14_png.c
+images/ui_img_761631266.c
 images/ui_img_rectangle_1_png.c
